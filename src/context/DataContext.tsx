@@ -15,14 +15,28 @@ import {
   PlayerRecord,
   StateAggregate,
   StatePopulationRecord,
-  summarizeValidation
+  summarizeValidation,
+  DataValidationSummary
 } from '../utils/dataTransforms';
+import { findStateMeta } from '../data/stateMeta';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 const PLAYERS_STORAGE_KEY = 'war-birthplace-players';
 const POP_STORAGE_KEY = 'war-birthplace-population';
-const SAMPLE_PLAYERS_URL = '/sample-data/players_sample.csv';
-const SAMPLE_POP_URL = '/sample-data/state_pop_sample.csv';
+
+const resolveStaticUrl = (relativePath: string) => {
+  const base = import.meta.env.BASE_URL ?? '/';
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  return `${normalizedBase}${relativePath}`;
+};
+
+const SAMPLE_PLAYERS_URL = resolveStaticUrl('sample-data/players_sample.csv');
+const SAMPLE_POP_URL = resolveStaticUrl('sample-data/state_pop_sample.csv');
+const BUNDLED_PLAYERS_URL = resolveStaticUrl('data/players.json');
+const BUNDLED_POP_URL = resolveStaticUrl('data/state-populations.json');
+
+const EMPTY_PLAYER_SUMMARY = { rowCount: 0, accepted: 0, rejected: 0, missingState: 0 } as const;
+const EMPTY_POP_SUMMARY = { rowCount: 0, accepted: 0, rejected: 0 } as const;
 
 interface DataContextValue {
   players: PlayerRecord[];
@@ -70,22 +84,32 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  const ingestPlayers = useCallback(
+    (data: PlayerRecord[], summary: DataValidationSummary['players']) => {
+      setPlayers(data);
+      setValidation((prev) => summarizeValidation(summary, prev?.populations ?? EMPTY_POP_SUMMARY));
+    },
+    []
+  );
+
+  const ingestPopulations = useCallback(
+    (data: StatePopulationRecord[], summary: DataValidationSummary['populations']) => {
+      setPopulations(data);
+      setValidation((prev) => summarizeValidation(prev?.players ?? EMPTY_PLAYER_SUMMARY, summary));
+    },
+    []
+  );
+
   const initializeFromStorage = useCallback(() => {
     if (storedPlayers.value) {
       const { data, summary } = parsePlayersCsv(storedPlayers.value);
-      setPlayers(data);
-      setValidation((prev) =>
-        summarizeValidation(summary, prev?.populations ?? { rowCount: 0, accepted: 0, rejected: 0 })
-      );
+      ingestPlayers(data, summary);
     }
     if (storedPopulations.value) {
       const { data, summary } = parsePopulationCsv(storedPopulations.value);
-      setPopulations(data);
-      setValidation((prev) =>
-        summarizeValidation(prev?.players ?? { rowCount: 0, accepted: 0, rejected: 0, missingState: 0 }, summary)
-      );
+      ingestPopulations(data, summary);
     }
-  }, [storedPlayers.value, storedPopulations.value]);
+  }, [storedPlayers.value, storedPopulations.value, ingestPlayers, ingestPopulations]);
 
   useEffect(() => {
     initializeFromStorage();
@@ -94,25 +118,19 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
   const loadPlayersText = useCallback(
     (text: string) => {
       const { data, summary } = parsePlayersCsv(text);
-      setPlayers(data);
-      setValidation((prev) =>
-        summarizeValidation(summary, prev?.populations ?? { rowCount: 0, accepted: 0, rejected: 0 })
-      );
+      ingestPlayers(data, summary);
       storedPlayers.setValue(text);
     },
-    [storedPlayers]
+    [ingestPlayers, storedPlayers]
   );
 
   const loadPopulationsText = useCallback(
     (text: string) => {
       const { data, summary } = parsePopulationCsv(text);
-      setPopulations(data);
-      setValidation((prev) =>
-        summarizeValidation(prev?.players ?? { rowCount: 0, accepted: 0, rejected: 0, missingState: 0 }, summary)
-      );
+      ingestPopulations(data, summary);
       storedPopulations.setValue(text);
     },
-    [storedPopulations]
+    [ingestPopulations, storedPopulations]
   );
 
   const loadSampleData = useCallback(async () => {
@@ -174,6 +192,52 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
     [loadPopulationsText]
   );
 
+  const loadBundledData = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const [playersResponse, popResponse] = await Promise.all([
+        fetch(BUNDLED_PLAYERS_URL),
+        fetch(BUNDLED_POP_URL)
+      ]);
+      if (!playersResponse.ok || !popResponse.ok) {
+        throw new Error('Unable to load bundled datasets');
+      }
+      const [playersJson, popJson] = await Promise.all([
+        playersResponse.json(),
+        popResponse.json()
+      ]);
+      const playerRecords = (playersJson as PlayerRecord[]).map((record) => ({
+        ...record,
+        birthDecade: record.birthDecade ?? Math.floor(record.birthYear / 10) * 10
+      }));
+      const populationRecords = (popJson as Array<{ state: string; year: number; population: number }>).map(
+        (record) => ({
+          state: record.state,
+          year: record.year,
+          population: record.population,
+          meta: findStateMeta(record.state)
+        })
+      );
+      ingestPlayers(playerRecords, {
+        rowCount: playerRecords.length,
+        accepted: playerRecords.length,
+        rejected: 0,
+        missingState: 0
+      });
+      ingestPopulations(populationRecords, {
+        rowCount: populationRecords.length,
+        accepted: populationRecords.length,
+        rejected: 0
+      });
+    } catch (err) {
+      console.error(err);
+      setError(err instanceof Error ? err.message : 'Unknown error loading bundled data');
+    } finally {
+      setLoading(false);
+    }
+  }, [ingestPlayers, ingestPopulations]);
+
   const getAggregates = useCallback(
     (options?: { metric: 'totalWar' | 'warPerMillion'; decade?: number | null }): StateAggregate[] => {
       if (players.length === 0) {
@@ -202,6 +266,16 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
     setValidation(undefined);
     setFilters(defaultFilters);
   }, [storedPlayers, storedPopulations]);
+
+  useEffect(() => {
+    if (players.length > 0) {
+      return;
+    }
+    if (storedPlayers.value || storedPopulations.value) {
+      return;
+    }
+    loadBundledData();
+  }, [players.length, storedPlayers.value, storedPopulations.value, loadBundledData]);
 
   useEffect(() => {
     if (players.length === 0) {

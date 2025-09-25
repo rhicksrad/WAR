@@ -45,9 +45,10 @@ export function DataPanel() {
         </div>
       </div>
       <p className={styles.helperText}>
-        Provide <code>players.csv</code> and <code>state_pop.csv</code> files. The inputs accept Lahman-style
-        exports with <code>birth_state</code>, <code>birth_year</code>, and <code>war_career</code> columns plus
-        annual state population figures.
+        The app boots with the bundled Baseball Reference WAR archive and state population snapshots that ship in this
+        repository. Upload a fresh <code>players.csv</code> or <code>state_pop.csv</code> to explore alternative
+        scenarios—the inputs accept Lahman-style exports with <code>birth_state</code>, <code>birth_year</code>,
+        <code>war_career</code>, and annual state population columns.
       </p>
       <div className={styles.inputGroup}>
         <label className={styles.label} htmlFor="players-file">

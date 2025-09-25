@@ -1,68 +1,15 @@
+import stateMetaData from './stateMetaData.json';
+
 export interface StateMeta {
   name: string;
   postal: string;
   fips: string;
 }
 
-export const STATES: StateMeta[] = [
-  { name: 'Alabama', postal: 'AL', fips: '01' },
-  { name: 'Alaska', postal: 'AK', fips: '02' },
-  { name: 'Arizona', postal: 'AZ', fips: '04' },
-  { name: 'Arkansas', postal: 'AR', fips: '05' },
-  { name: 'California', postal: 'CA', fips: '06' },
-  { name: 'Colorado', postal: 'CO', fips: '08' },
-  { name: 'Connecticut', postal: 'CT', fips: '09' },
-  { name: 'Delaware', postal: 'DE', fips: '10' },
-  { name: 'District of Columbia', postal: 'DC', fips: '11' },
-  { name: 'Florida', postal: 'FL', fips: '12' },
-  { name: 'Georgia', postal: 'GA', fips: '13' },
-  { name: 'Hawaii', postal: 'HI', fips: '15' },
-  { name: 'Idaho', postal: 'ID', fips: '16' },
-  { name: 'Illinois', postal: 'IL', fips: '17' },
-  { name: 'Indiana', postal: 'IN', fips: '18' },
-  { name: 'Iowa', postal: 'IA', fips: '19' },
-  { name: 'Kansas', postal: 'KS', fips: '20' },
-  { name: 'Kentucky', postal: 'KY', fips: '21' },
-  { name: 'Louisiana', postal: 'LA', fips: '22' },
-  { name: 'Maine', postal: 'ME', fips: '23' },
-  { name: 'Maryland', postal: 'MD', fips: '24' },
-  { name: 'Massachusetts', postal: 'MA', fips: '25' },
-  { name: 'Michigan', postal: 'MI', fips: '26' },
-  { name: 'Minnesota', postal: 'MN', fips: '27' },
-  { name: 'Mississippi', postal: 'MS', fips: '28' },
-  { name: 'Missouri', postal: 'MO', fips: '29' },
-  { name: 'Montana', postal: 'MT', fips: '30' },
-  { name: 'Nebraska', postal: 'NE', fips: '31' },
-  { name: 'Nevada', postal: 'NV', fips: '32' },
-  { name: 'New Hampshire', postal: 'NH', fips: '33' },
-  { name: 'New Jersey', postal: 'NJ', fips: '34' },
-  { name: 'New Mexico', postal: 'NM', fips: '35' },
-  { name: 'New York', postal: 'NY', fips: '36' },
-  { name: 'North Carolina', postal: 'NC', fips: '37' },
-  { name: 'North Dakota', postal: 'ND', fips: '38' },
-  { name: 'Ohio', postal: 'OH', fips: '39' },
-  { name: 'Oklahoma', postal: 'OK', fips: '40' },
-  { name: 'Oregon', postal: 'OR', fips: '41' },
-  { name: 'Pennsylvania', postal: 'PA', fips: '42' },
-  { name: 'Rhode Island', postal: 'RI', fips: '44' },
-  { name: 'South Carolina', postal: 'SC', fips: '45' },
-  { name: 'South Dakota', postal: 'SD', fips: '46' },
-  { name: 'Tennessee', postal: 'TN', fips: '47' },
-  { name: 'Texas', postal: 'TX', fips: '48' },
-  { name: 'Utah', postal: 'UT', fips: '49' },
-  { name: 'Vermont', postal: 'VT', fips: '50' },
-  { name: 'Virginia', postal: 'VA', fips: '51' },
-  { name: 'Washington', postal: 'WA', fips: '53' },
-  { name: 'West Virginia', postal: 'WV', fips: '54' },
-  { name: 'Wisconsin', postal: 'WI', fips: '55' },
-  { name: 'Wyoming', postal: 'WY', fips: '56' },
-  { name: 'Puerto Rico', postal: 'PR', fips: '72' }
-];
+export const STATES: StateMeta[] = stateMetaData;
 
 const byPostal = new Map(STATES.map((state) => [state.postal.toUpperCase(), state]));
-const byName = new Map(
-  STATES.map((state) => [state.name.toLowerCase(), state])
-);
+const byName = new Map(STATES.map((state) => [state.name.toLowerCase(), state]));
 
 export function findStateMeta(value: string | null | undefined): StateMeta | undefined {
   if (!value) {
@@ -77,8 +24,4 @@ export function findStateMeta(value: string | null | undefined): StateMeta | und
     return postalMatch;
   }
   return byName.get(trimmed.toLowerCase());
-}
-
-export function listStateOptions(): { label: string; value: string }[] {
-  return STATES.map((state) => ({ label: state.name, value: state.postal }));
 }

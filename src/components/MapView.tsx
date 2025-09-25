@@ -34,7 +34,9 @@ export function MapView({
     let isMounted = true;
     async function loadTopo() {
       try {
-        const response = await fetch('/us-states-10m.json');
+        const base = import.meta.env.BASE_URL ?? '/';
+        const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+        const response = await fetch(`${normalizedBase}us-states-10m.json`);
         if (!response.ok) {
           throw new Error('Unable to load US states topology');
         }
