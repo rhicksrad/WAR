@@ -1,0 +1,40 @@
+.tooltip,
+.tooltipPinned {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(33, 37, 41, 0.85);
+  color: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  max-width: 260px;
+  font-size: 0.85rem;
+  z-index: 20;
+  transform: translate(-50%, -110%);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.tooltipPinned {
+  pointer-events: auto;
+  background: #212529;
+  transform: translate(-50%, -110%);
+}
+
+.tooltip h3,
+.tooltipPinned h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.tooltip h4,
+.tooltipPinned h4 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tooltip ol,
+.tooltipPinned ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
