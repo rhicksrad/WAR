@@ -162,11 +162,6 @@ export default function App() {
         </div>
         <StateDetailPanel aggregate={selectedAggregate ?? null} page={detailPage} onPageChange={setDetailPage} />
       </main>
-      <footer className={styles.footer}>
-        <p>
-          Drop in fresh CSV exports at any time. Data is stored locally in your browser so you can pick up where you left off.
-        </p>
-      </footer>
     </div>
   );
 }
