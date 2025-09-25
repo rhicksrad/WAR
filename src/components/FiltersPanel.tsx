@@ -17,8 +17,10 @@ export function FiltersPanel() {
     return null;
   }
 
-  const globalMin = Math.min(...players.map((player) => player.birthYear));
-  const globalMax = Math.max(...players.map((player) => player.birthYear));
+  const rawMin = Math.min(...players.map((player) => player.birthYear));
+  const rawMax = Math.max(...players.map((player) => player.birthYear));
+  const sliderMin = snapToDecade(rawMin);
+  const sliderMax = Math.ceil(rawMax / 10) * 10;
 
   const handleMinYearChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = snapToDecade(Number(event.target.value));
@@ -56,8 +58,8 @@ export function FiltersPanel() {
           <input
             id="birth-min"
             type="range"
-            min={globalMin}
-            max={globalMax}
+            min={sliderMin}
+            max={sliderMax}
             step={10}
             value={filters.minYear}
             onChange={handleMinYearChange}
@@ -65,8 +67,8 @@ export function FiltersPanel() {
           <input
             id="birth-max"
             type="range"
-            min={globalMin}
-            max={globalMax}
+            min={sliderMin}
+            max={sliderMax}
             step={10}
             value={filters.maxYear}
             onChange={handleMaxYearChange}
