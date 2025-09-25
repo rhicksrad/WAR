@@ -115,14 +115,6 @@
   flex: 1;
 }
 
-.footer {
-  margin-top: auto;
-  padding: 1.5rem 0 0.5rem;
-  color: rgba(226, 232, 240, 0.8);
-  font-size: 0.95rem;
-  text-align: center;
-}
-
 @media (max-width: 1080px) {
   .main {
     grid-template-columns: 1fr;
