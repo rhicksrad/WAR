@@ -2,16 +2,18 @@
   border: 1px solid var(--border-soft);
   padding: 1.5rem;
   border-radius: 1.25rem;
-  background: var(--surface-glass);
+  background: linear-gradient(155deg, var(--surface-glass) 0%, rgba(8, 15, 32, 0.92) 100%);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(16px);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  color: var(--text-primary);
 }
 
 .panel h2 {
   margin: 0;
+  color: var(--text-strong);
 }
 
 .filterRow {
@@ -22,7 +24,7 @@
 
 .filterRow label {
   font-weight: 600;
-  color: #0f172a;
+  color: var(--text-strong);
 }
 
 .sliderRow {
@@ -36,9 +38,10 @@ input[type='range'] {
   appearance: none;
   height: 0.55rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent-soft), rgba(148, 163, 184, 0.35));
+  background: linear-gradient(90deg, rgba(96, 165, 250, 0.55), rgba(148, 163, 184, 0.25));
   position: relative;
   overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(148, 197, 255, 0.25);
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -48,7 +51,7 @@ input[type='range']::-webkit-slider-thumb {
   height: 18px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.45);
   border: none;
 }
 
@@ -57,7 +60,7 @@ input[type='range']::-moz-range-thumb {
   height: 18px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.45);
   border: none;
 }
 
@@ -73,14 +76,15 @@ input[type='range']::-moz-range-track {
 select {
   padding: 0.5rem 0.75rem;
   border-radius: 0.75rem;
-  border: 1px solid var(--border-soft);
+  border: 1px solid var(--border-strong);
   max-width: 240px;
-  background: rgba(255, 255, 255, 0.85);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  background: rgba(15, 23, 42, 0.85);
+  box-shadow: inset 0 1px 0 rgba(148, 197, 255, 0.25), 0 12px 25px -18px rgba(8, 12, 26, 0.7);
   font-weight: 500;
+  color: var(--text-primary);
 }
 
 select:focus-visible {
-  outline: 2px solid rgba(37, 99, 235, 0.35);
+  outline: 2px solid rgba(96, 165, 250, 0.45);
   outline-offset: 2px;
 }
