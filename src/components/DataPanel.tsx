@@ -1,35 +1,8 @@
-import { ChangeEvent, useState } from 'react';
 import { useDataContext } from '../context/DataContext';
 import styles from '../styles/DataPanel.module.css';
 
 export function DataPanel() {
-  const {
-    loadSampleData,
-    loadPlayersFile,
-    loadPopulationFile,
-    validation,
-    loading,
-    error,
-    clearStoredData
-  } = useDataContext();
-  const [playersFileName, setPlayersFileName] = useState<string | null>(null);
-  const [popFileName, setPopFileName] = useState<string | null>(null);
-
-  const handlePlayersChange = async (event: ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (file) {
-      setPlayersFileName(file.name);
-      await loadPlayersFile(file);
-    }
-  };
-
-  const handlePopulationChange = async (event: ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (file) {
-      setPopFileName(file.name);
-      await loadPopulationFile(file);
-    }
-  };
+  const { loadSampleData, validation, loading, error, clearStoredData } = useDataContext();
 
   return (
     <section className={styles.panel} aria-labelledby="data-panel-heading">
@@ -45,25 +18,10 @@ export function DataPanel() {
         </div>
       </div>
       <p className={styles.helperText}>
-        The app boots with the bundled Baseball Reference WAR archive and state population snapshots that ship in this
-        repository. Upload a fresh <code>players.csv</code> or <code>state_pop.csv</code> to explore alternative
-        scenarios—the inputs accept Lahman-style exports with <code>birth_state</code>, <code>birth_year</code>,
-        <code>war_career</code>, and annual state population columns.
+        The app boots with the bundled Baseball Reference WAR archive and state population snapshots that ship with this
+        repository. Use the actions above to reset any cached overrides or preview the smaller sample dataset—no manual
+        file uploads required.
       </p>
-      <div className={styles.inputGroup}>
-        <label className={styles.label} htmlFor="players-file">
-          Players CSV
-        </label>
-        <input id="players-file" type="file" accept="text/csv,.csv" onChange={handlePlayersChange} />
-        {playersFileName && <span className={styles.fileName}>Loaded: {playersFileName}</span>}
-      </div>
-      <div className={styles.inputGroup}>
-        <label className={styles.label} htmlFor="population-file">
-          State population CSV
-        </label>
-        <input id="population-file" type="file" accept="text/csv,.csv" onChange={handlePopulationChange} />
-        {popFileName && <span className={styles.fileName}>Loaded: {popFileName}</span>}
-      </div>
       {loading && <p className={styles.status}>Loading data…</p>}
       {error && <p className={styles.error}>Error: {error}</p>}
       {validation && (
