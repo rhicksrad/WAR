@@ -108,55 +108,57 @@ export default function App() {
       </header>
       <main className={styles.main}>
         <div className={styles.leftColumn}>
-          <DataPanel />
+          <section className={styles.visualizationSection}>
+            <Tabs
+              options={VIEW_OPTIONS.map((option) => ({ id: option.id, label: option.label }))}
+              activeId={view}
+              onChange={handleViewChange}
+            />
+            {players.length === 0 ? (
+              <p className={styles.placeholder}>Load player data to render the map.</p>
+            ) : (
+              <div className={styles.visualization}>
+                {view === 'decade' && decadeFocus != null && (
+                  <div className={styles.decadeControl}>
+                    <label htmlFor="decade-slider">Focus decade: {decadeFocus}s</label>
+                    <input
+                      id="decade-slider"
+                      type="range"
+                      min={0}
+                      max={decades.length - 1}
+                      value={decades.indexOf(decadeFocus)}
+                      onChange={(event) => {
+                        const index = Number(event.target.value);
+                        setDecadeFocus(decades[index] ?? decadeFocus);
+                      }}
+                    />
+                  </div>
+                )}
+                <MapView
+                  metric={view === 'warPerMillion' ? 'warPerMillion' : 'totalWar'}
+                  aggregates={aggregates}
+                  onStateHover={handleHover}
+                  onStateSelect={handleSelect}
+                  selectedFips={selectedInfo?.fips ?? null}
+                  title={
+                    view === 'warPerMillion'
+                      ? 'Career WAR per 1M residents'
+                      : view === 'decade'
+                        ? `Career WAR by birthplace · ${decadeFocus ?? ''}s`
+                        : 'Total career WAR by birthplace'
+                  }
+                />
+                <Tooltip
+                  aggregate={tooltipAggregate}
+                  position={tooltipPosition ?? null}
+                  visible={Boolean(tooltipAggregate)}
+                  pinned={tooltipPinned}
+                />
+              </div>
+            )}
+          </section>
           <FiltersPanel />
-          <Tabs
-            options={VIEW_OPTIONS.map((option) => ({ id: option.id, label: option.label }))}
-            activeId={view}
-            onChange={handleViewChange}
-          />
-          {players.length === 0 ? (
-            <p className={styles.placeholder}>Load player data to render the map.</p>
-          ) : (
-            <div className={styles.visualization}>
-              {view === 'decade' && decadeFocus != null && (
-                <div className={styles.decadeControl}>
-                  <label htmlFor="decade-slider">Focus decade: {decadeFocus}s</label>
-                  <input
-                    id="decade-slider"
-                    type="range"
-                    min={0}
-                    max={decades.length - 1}
-                    value={decades.indexOf(decadeFocus)}
-                    onChange={(event) => {
-                      const index = Number(event.target.value);
-                      setDecadeFocus(decades[index] ?? decadeFocus);
-                    }}
-                  />
-                </div>
-              )}
-              <MapView
-                metric={view === 'warPerMillion' ? 'warPerMillion' : 'totalWar'}
-                aggregates={aggregates}
-                onStateHover={handleHover}
-                onStateSelect={handleSelect}
-                selectedFips={selectedInfo?.fips ?? null}
-                title={
-                  view === 'warPerMillion'
-                    ? 'Career WAR per 1M residents'
-                    : view === 'decade'
-                      ? `Career WAR by birthplace · ${decadeFocus ?? ''}s`
-                      : 'Total career WAR by birthplace'
-                }
-              />
-              <Tooltip
-                aggregate={tooltipAggregate}
-                position={tooltipPosition ?? null}
-                visible={Boolean(tooltipAggregate)}
-                pinned={tooltipPinned}
-              />
-            </div>
-          )}
+          <DataPanel />
         </div>
         <StateDetailPanel aggregate={selectedAggregate ?? null} page={detailPage} onPageChange={setDetailPage} />
       </main>
