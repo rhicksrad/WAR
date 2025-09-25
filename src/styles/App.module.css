@@ -6,6 +6,7 @@
   margin: 0;
   padding: clamp(1.5rem, 3vw, 3rem) clamp(1.5rem, 6vw, 5rem);
   gap: clamp(1.5rem, 3vw, 2.25rem);
+  color: var(--text-primary);
 }
 
 .header {
@@ -13,7 +14,7 @@
   padding: clamp(1.75rem, 4vw, 2.5rem) clamp(1.5rem, 3vw, 2.75rem);
   border-radius: 1.75rem;
   border: 1px solid var(--border-soft);
-  background: var(--surface-glass);
+  background: linear-gradient(140deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.82));
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(18px);
   overflow: hidden;
@@ -23,8 +24,9 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 55%),
-    radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.14), transparent 60%);
+  background: radial-gradient(circle at 15% 15%, rgba(96, 165, 250, 0.4), transparent 55%),
+    radial-gradient(circle at 85% 80%, rgba(192, 132, 252, 0.32), transparent 62%),
+    radial-gradient(circle at 50% 100%, rgba(34, 211, 238, 0.22), transparent 68%);
   pointer-events: none;
   mix-blend-mode: screen;
 }
@@ -35,6 +37,7 @@
   letter-spacing: -0.02em;
   position: relative;
   z-index: 1;
+  color: var(--text-strong);
 }
 
 .subtitle {
@@ -73,22 +76,22 @@
   padding: clamp(1.5rem, 2.75vw, 2.25rem);
   border-radius: 1.25rem;
   border: 1px solid var(--border-soft);
-  background: rgba(15, 23, 42, 0.02);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), var(--shadow-soft);
+  background: linear-gradient(155deg, rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.92));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), var(--shadow-soft);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
 .placeholder {
-  border: 1px dashed rgba(148, 163, 184, 0.6);
+  border: 1px dashed rgba(148, 163, 184, 0.45);
   padding: 2.5rem;
   text-align: center;
   border-radius: 1.25rem;
   color: var(--text-muted);
   font-style: italic;
-  background: rgba(15, 23, 42, 0.04);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  background: rgba(15, 23, 42, 0.4);
+  box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.25);
 }
 
 .decadeControl {
@@ -97,9 +100,10 @@
   gap: 1rem;
   padding: 0.85rem 1rem;
   border-radius: 0.9rem;
-  background: rgba(37, 99, 235, 0.08);
-  border: 1px solid rgba(37, 99, 235, 0.2);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  background: rgba(37, 99, 235, 0.18);
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  box-shadow: inset 0 1px 0 rgba(148, 197, 255, 0.35);
+  color: var(--text-strong);
 }
 
 .decadeControl label {
