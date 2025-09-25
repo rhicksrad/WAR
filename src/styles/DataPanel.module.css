@@ -1,0 +1,84 @@
+.panel {
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #f8f9fa;
+  margin-bottom: 1.5rem;
+}
+
+.headingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.headingRow h2 {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.actions button {
+  border: 1px solid #1c7ed6;
+  background: #1c7ed6;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.helperText {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+.inputGroup {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.fileName {
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+.status {
+  color: #1c7ed6;
+  font-weight: 600;
+}
+
+.error {
+  color: #e03131;
+  font-weight: 600;
+}
+
+.summaryGrid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.summaryGrid h3 {
+  margin: 0 0 0.5rem;
+}
+
+.summaryGrid ul {
+  padding-left: 1rem;
+  margin: 0;
+}
