@@ -73,6 +73,9 @@ const defaultFilters: Filters = {
   league: 'all'
 };
 
+const snapYearDownToDecade = (value: number) => Math.floor(value / 10) * 10;
+const snapYearUpToDecade = (value: number) => Math.ceil(value / 10) * 10;
+
 export function DataProvider({ children }: { children: React.ReactNode }) {
   const storedPlayers = useLocalStorage(PLAYERS_STORAGE_KEY);
   const storedPopulations = useLocalStorage(POP_STORAGE_KEY);
@@ -279,12 +282,20 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (players.length === 0) {
-      setFilters((prev) => ({ ...prev, minYear: defaultFilters.minYear, maxYear: defaultFilters.maxYear }));
+      setFilters((prev) => ({
+        ...prev,
+        minYear: snapYearDownToDecade(defaultFilters.minYear),
+        maxYear: snapYearUpToDecade(defaultFilters.maxYear)
+      }));
       return;
     }
     const minYear = Math.min(...players.map((player) => player.birthYear));
     const maxYear = Math.max(...players.map((player) => player.birthYear));
-    setFilters((prev) => ({ ...prev, minYear, maxYear }));
+    setFilters((prev) => ({
+      ...prev,
+      minYear: snapYearDownToDecade(minYear),
+      maxYear: snapYearUpToDecade(maxYear)
+    }));
   }, [players]);
 
   const contextValue: DataContextValue = {
