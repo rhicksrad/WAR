@@ -7,7 +7,7 @@ import { StateAggregate } from '../utils/dataTransforms';
 import styles from '../styles/MapView.module.css';
 import { Legend } from './Legend';
 
-const COLOR_RANGE = ['#edf2ff', '#d0ebff', '#74c0fc', '#4dabf7', '#1c7ed6', '#1864ab'];
+const COLOR_RANGE = ['#dbeafe', '#bfdbfe', '#93c5fd', '#60a5fa', '#3b82f6', '#1d4ed8'];
 
 interface MapViewProps {
   metric: 'totalWar' | 'warPerMillion';

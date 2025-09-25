@@ -2,39 +2,45 @@
 .tooltipPinned {
   position: fixed;
   pointer-events: none;
-  background: rgba(33, 37, 41, 0.85);
-  color: #f8f9fa;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  max-width: 260px;
-  font-size: 0.85rem;
+  background: rgba(15, 23, 42, 0.88);
+  color: #e2e8f0;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  max-width: 280px;
+  font-size: 0.88rem;
   z-index: 20;
   transform: translate(-50%, -110%);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 35px -25px rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  backdrop-filter: blur(10px);
 }
 
 .tooltipPinned {
   pointer-events: auto;
-  background: #212529;
-  transform: translate(-50%, -110%);
+  background: rgba(15, 23, 42, 0.94);
 }
 
 .tooltip h3,
 .tooltipPinned h3 {
-  margin: 0 0 0.25rem;
-  font-size: 1rem;
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
 }
 
 .tooltip h4,
 .tooltipPinned h4 {
-  margin: 0.5rem 0 0.25rem;
-  font-size: 0.85rem;
+  margin: 0.6rem 0 0.25rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.12em;
+  color: rgba(226, 232, 240, 0.72);
 }
 
 .tooltip ol,
 .tooltipPinned ol {
   margin: 0;
   padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
