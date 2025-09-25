@@ -14,8 +14,11 @@
 }
 
 .mapContainer {
-  position: relative;
-  padding: 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(1rem, 2vw, 2rem);
+  align-items: start;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
   border-radius: 1.1rem;
   border: 1px solid var(--border-soft);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(226, 232, 240, 0.55) 100%);
@@ -55,7 +58,20 @@
 }
 
 .legendContainer {
-  position: absolute;
-  right: 1.25rem;
-  bottom: 1.25rem;
+  position: static;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+  .mapContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .legendContainer {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
 }

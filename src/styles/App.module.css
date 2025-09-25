@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: clamp(1.5rem, 4vw, 3rem);
-  max-width: 1240px;
+  width: 100%;
+  margin: 0;
+  padding: clamp(1.5rem, 3vw, 3rem) clamp(1.5rem, 6vw, 5rem);
   gap: clamp(1.5rem, 3vw, 2.25rem);
 }
 
@@ -48,15 +48,10 @@
 
 .main {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
-  gap: clamp(1.5rem, 3vw, 2.5rem);
+  grid-template-columns: minmax(0, 2.5fr) minmax(280px, 1fr);
+  gap: clamp(1.75rem, 3.5vw, 3rem);
   align-items: start;
-  padding: clamp(1.25rem, 3vw, 2rem);
-  border-radius: 1.5rem;
-  border: 1px solid var(--border-soft);
-  background: var(--surface-muted);
-  box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(14px);
+  width: 100%;
 }
 
 .leftColumn {
@@ -74,15 +69,15 @@
 
 .visualization {
   position: relative;
-  min-height: 520px;
-  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  min-height: clamp(560px, 65vh, 760px);
+  padding: clamp(1.5rem, 2.75vw, 2.25rem);
   border-radius: 1.25rem;
   border: 1px solid var(--border-soft);
   background: rgba(15, 23, 42, 0.02);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), var(--shadow-soft);
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
 .placeholder {
@@ -126,16 +121,17 @@
 @media (max-width: 1080px) {
   .main {
     grid-template-columns: 1fr;
+    gap: clamp(1.5rem, 4vw, 2.5rem);
   }
 
   .visualization {
-    min-height: 420px;
+    min-height: clamp(480px, 60vh, 640px);
   }
 }
 
 @media (max-width: 720px) {
-  .main {
-    padding: 1.25rem;
+  .app {
+    padding: clamp(1rem, 6vw, 1.75rem);
   }
 
   .visualization {
