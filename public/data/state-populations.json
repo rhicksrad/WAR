@@ -1,0 +1,6192 @@
+[
+  {
+    "state": "AK",
+    "year": 1990,
+    "population": 553290
+  },
+  {
+    "state": "AK",
+    "year": 1991,
+    "population": 570193
+  },
+  {
+    "state": "AK",
+    "year": 1992,
+    "population": 588736
+  },
+  {
+    "state": "AK",
+    "year": 1993,
+    "population": 599434
+  },
+  {
+    "state": "AK",
+    "year": 1994,
+    "population": 603308
+  },
+  {
+    "state": "AK",
+    "year": 1995,
+    "population": 604412
+  },
+  {
+    "state": "AK",
+    "year": 1996,
+    "population": 608569
+  },
+  {
+    "state": "AK",
+    "year": 1997,
+    "population": 612968
+  },
+  {
+    "state": "AK",
+    "year": 1998,
+    "population": 619933
+  },
+  {
+    "state": "AK",
+    "year": 1999,
+    "population": 624779
+  },
+  {
+    "state": "AK",
+    "year": 2000,
+    "population": 627963
+  },
+  {
+    "state": "AK",
+    "year": 2001,
+    "population": 633714
+  },
+  {
+    "state": "AK",
+    "year": 2002,
+    "population": 642337
+  },
+  {
+    "state": "AK",
+    "year": 2003,
+    "population": 648414
+  },
+  {
+    "state": "AK",
+    "year": 2004,
+    "population": 659286
+  },
+  {
+    "state": "AK",
+    "year": 2005,
+    "population": 666946
+  },
+  {
+    "state": "AK",
+    "year": 2006,
+    "population": 675302
+  },
+  {
+    "state": "AK",
+    "year": 2007,
+    "population": 680300
+  },
+  {
+    "state": "AK",
+    "year": 2008,
+    "population": 687455
+  },
+  {
+    "state": "AK",
+    "year": 2009,
+    "population": 698895
+  },
+  {
+    "state": "AK",
+    "year": 2010,
+    "population": 713868
+  },
+  {
+    "state": "AK",
+    "year": 2011,
+    "population": 723375
+  },
+  {
+    "state": "AK",
+    "year": 2012,
+    "population": 730307
+  },
+  {
+    "state": "AK",
+    "year": 2013,
+    "population": 735132
+  },
+  {
+    "state": "AL",
+    "year": 1990,
+    "population": 4050055
+  },
+  {
+    "state": "AL",
+    "year": 1991,
+    "population": 4099156
+  },
+  {
+    "state": "AL",
+    "year": 1992,
+    "population": 4154014
+  },
+  {
+    "state": "AL",
+    "year": 1993,
+    "population": 4214202
+  },
+  {
+    "state": "AL",
+    "year": 1994,
+    "population": 4260229
+  },
+  {
+    "state": "AL",
+    "year": 1995,
+    "population": 4296800
+  },
+  {
+    "state": "AL",
+    "year": 1996,
+    "population": 4331103
+  },
+  {
+    "state": "AL",
+    "year": 1997,
+    "population": 4367935
+  },
+  {
+    "state": "AL",
+    "year": 1998,
+    "population": 4404701
+  },
+  {
+    "state": "AL",
+    "year": 1999,
+    "population": 4430141
+  },
+  {
+    "state": "AL",
+    "year": 2000,
+    "population": 4452173
+  },
+  {
+    "state": "AL",
+    "year": 2001,
+    "population": 4467634
+  },
+  {
+    "state": "AL",
+    "year": 2002,
+    "population": 4480089
+  },
+  {
+    "state": "AL",
+    "year": 2003,
+    "population": 4503491
+  },
+  {
+    "state": "AL",
+    "year": 2004,
+    "population": 4530729
+  },
+  {
+    "state": "AL",
+    "year": 2005,
+    "population": 4569805
+  },
+  {
+    "state": "AL",
+    "year": 2006,
+    "population": 4628981
+  },
+  {
+    "state": "AL",
+    "year": 2007,
+    "population": 4672840
+  },
+  {
+    "state": "AL",
+    "year": 2008,
+    "population": 4718206
+  },
+  {
+    "state": "AL",
+    "year": 2009,
+    "population": 4757938
+  },
+  {
+    "state": "AL",
+    "year": 2010,
+    "population": 4785570
+  },
+  {
+    "state": "AL",
+    "year": 2011,
+    "population": 4801627
+  },
+  {
+    "state": "AL",
+    "year": 2012,
+    "population": 4817528
+  },
+  {
+    "state": "AL",
+    "year": 2013,
+    "population": 4833722
+  },
+  {
+    "state": "AR",
+    "year": 1990,
+    "population": 2356586
+  },
+  {
+    "state": "AR",
+    "year": 1991,
+    "population": 2383144
+  },
+  {
+    "state": "AR",
+    "year": 1992,
+    "population": 2415984
+  },
+  {
+    "state": "AR",
+    "year": 1993,
+    "population": 2456303
+  },
+  {
+    "state": "AR",
+    "year": 1994,
+    "population": 2494019
+  },
+  {
+    "state": "AR",
+    "year": 1995,
+    "population": 2535399
+  },
+  {
+    "state": "AR",
+    "year": 1996,
+    "population": 2572109
+  },
+  {
+    "state": "AR",
+    "year": 1997,
+    "population": 2601091
+  },
+  {
+    "state": "AR",
+    "year": 1998,
+    "population": 2626289
+  },
+  {
+    "state": "AR",
+    "year": 1999,
+    "population": 2651860
+  },
+  {
+    "state": "AR",
+    "year": 2000,
+    "population": 2678588
+  },
+  {
+    "state": "AR",
+    "year": 2001,
+    "population": 2691571
+  },
+  {
+    "state": "AR",
+    "year": 2002,
+    "population": 2705927
+  },
+  {
+    "state": "AR",
+    "year": 2003,
+    "population": 2724816
+  },
+  {
+    "state": "AR",
+    "year": 2004,
+    "population": 2749686
+  },
+  {
+    "state": "AR",
+    "year": 2005,
+    "population": 2781097
+  },
+  {
+    "state": "AR",
+    "year": 2006,
+    "population": 2821761
+  },
+  {
+    "state": "AR",
+    "year": 2007,
+    "population": 2848650
+  },
+  {
+    "state": "AR",
+    "year": 2008,
+    "population": 2874554
+  },
+  {
+    "state": "AR",
+    "year": 2009,
+    "population": 2896843
+  },
+  {
+    "state": "AR",
+    "year": 2010,
+    "population": 2922280
+  },
+  {
+    "state": "AR",
+    "year": 2011,
+    "population": 2938506
+  },
+  {
+    "state": "AR",
+    "year": 2012,
+    "population": 2949828
+  },
+  {
+    "state": "AR",
+    "year": 2013,
+    "population": 2959373
+  },
+  {
+    "state": "AZ",
+    "year": 1990,
+    "population": 3684097
+  },
+  {
+    "state": "AZ",
+    "year": 1991,
+    "population": 3788576
+  },
+  {
+    "state": "AZ",
+    "year": 1992,
+    "population": 3915740
+  },
+  {
+    "state": "AZ",
+    "year": 1993,
+    "population": 4065440
+  },
+  {
+    "state": "AZ",
+    "year": 1994,
+    "population": 4245089
+  },
+  {
+    "state": "AZ",
+    "year": 1995,
+    "population": 4432499
+  },
+  {
+    "state": "AZ",
+    "year": 1996,
+    "population": 4586940
+  },
+  {
+    "state": "AZ",
+    "year": 1997,
+    "population": 4736990
+  },
+  {
+    "state": "AZ",
+    "year": 1998,
+    "population": 4883342
+  },
+  {
+    "state": "AZ",
+    "year": 1999,
+    "population": 5023823
+  },
+  {
+    "state": "AZ",
+    "year": 2000,
+    "population": 5160586
+  },
+  {
+    "state": "AZ",
+    "year": 2001,
+    "population": 5273477
+  },
+  {
+    "state": "AZ",
+    "year": 2002,
+    "population": 5396255
+  },
+  {
+    "state": "AZ",
+    "year": 2003,
+    "population": 5510364
+  },
+  {
+    "state": "AZ",
+    "year": 2004,
+    "population": 5652404
+  },
+  {
+    "state": "AZ",
+    "year": 2005,
+    "population": 5839077
+  },
+  {
+    "state": "AZ",
+    "year": 2006,
+    "population": 6029141
+  },
+  {
+    "state": "AZ",
+    "year": 2007,
+    "population": 6167681
+  },
+  {
+    "state": "AZ",
+    "year": 2008,
+    "population": 6280362
+  },
+  {
+    "state": "AZ",
+    "year": 2009,
+    "population": 6343154
+  },
+  {
+    "state": "AZ",
+    "year": 2010,
+    "population": 6408790
+  },
+  {
+    "state": "AZ",
+    "year": 2011,
+    "population": 6468796
+  },
+  {
+    "state": "AZ",
+    "year": 2012,
+    "population": 6551149
+  },
+  {
+    "state": "AZ",
+    "year": 2013,
+    "population": 6626624
+  },
+  {
+    "state": "CA",
+    "year": 1990,
+    "population": 29959515
+  },
+  {
+    "state": "CA",
+    "year": 1991,
+    "population": 30470736
+  },
+  {
+    "state": "CA",
+    "year": 1992,
+    "population": 30974659
+  },
+  {
+    "state": "CA",
+    "year": 1993,
+    "population": 31274928
+  },
+  {
+    "state": "CA",
+    "year": 1994,
+    "population": 31484435
+  },
+  {
+    "state": "CA",
+    "year": 1995,
+    "population": 31696582
+  },
+  {
+    "state": "CA",
+    "year": 1996,
+    "population": 32018834
+  },
+  {
+    "state": "CA",
+    "year": 1997,
+    "population": 32486010
+  },
+  {
+    "state": "CA",
+    "year": 1998,
+    "population": 32987675
+  },
+  {
+    "state": "CA",
+    "year": 1999,
+    "population": 33499204
+  },
+  {
+    "state": "CA",
+    "year": 2000,
+    "population": 33987977
+  },
+  {
+    "state": "CA",
+    "year": 2001,
+    "population": 34479458
+  },
+  {
+    "state": "CA",
+    "year": 2002,
+    "population": 34871843
+  },
+  {
+    "state": "CA",
+    "year": 2003,
+    "population": 35253159
+  },
+  {
+    "state": "CA",
+    "year": 2004,
+    "population": 35574576
+  },
+  {
+    "state": "CA",
+    "year": 2005,
+    "population": 35827943
+  },
+  {
+    "state": "CA",
+    "year": 2006,
+    "population": 36021202
+  },
+  {
+    "state": "CA",
+    "year": 2007,
+    "population": 36250311
+  },
+  {
+    "state": "CA",
+    "year": 2008,
+    "population": 36604337
+  },
+  {
+    "state": "CA",
+    "year": 2009,
+    "population": 36961229
+  },
+  {
+    "state": "CA",
+    "year": 2010,
+    "population": 37333601
+  },
+  {
+    "state": "CA",
+    "year": 2011,
+    "population": 37668681
+  },
+  {
+    "state": "CA",
+    "year": 2012,
+    "population": 37999878
+  },
+  {
+    "state": "CA",
+    "year": 2013,
+    "population": 38332521
+  },
+  {
+    "state": "CO",
+    "year": 1990,
+    "population": 3307618
+  },
+  {
+    "state": "CO",
+    "year": 1991,
+    "population": 3387119
+  },
+  {
+    "state": "CO",
+    "year": 1992,
+    "population": 3495939
+  },
+  {
+    "state": "CO",
+    "year": 1993,
+    "population": 3613734
+  },
+  {
+    "state": "CO",
+    "year": 1994,
+    "population": 3724168
+  },
+  {
+    "state": "CO",
+    "year": 1995,
+    "population": 3826653
+  },
+  {
+    "state": "CO",
+    "year": 1996,
+    "population": 3919972
+  },
+  {
+    "state": "CO",
+    "year": 1997,
+    "population": 4018293
+  },
+  {
+    "state": "CO",
+    "year": 1998,
+    "population": 4116639
+  },
+  {
+    "state": "CO",
+    "year": 1999,
+    "population": 4226018
+  },
+  {
+    "state": "CO",
+    "year": 2000,
+    "population": 4326921
+  },
+  {
+    "state": "CO",
+    "year": 2001,
+    "population": 4425687
+  },
+  {
+    "state": "CO",
+    "year": 2002,
+    "population": 4490406
+  },
+  {
+    "state": "CO",
+    "year": 2003,
+    "population": 4528732
+  },
+  {
+    "state": "CO",
+    "year": 2004,
+    "population": 4575013
+  },
+  {
+    "state": "CO",
+    "year": 2005,
+    "population": 4631888
+  },
+  {
+    "state": "CO",
+    "year": 2006,
+    "population": 4720423
+  },
+  {
+    "state": "CO",
+    "year": 2007,
+    "population": 4803868
+  },
+  {
+    "state": "CO",
+    "year": 2008,
+    "population": 4889730
+  },
+  {
+    "state": "CO",
+    "year": 2009,
+    "population": 4972195
+  },
+  {
+    "state": "CO",
+    "year": 2010,
+    "population": 5048196
+  },
+  {
+    "state": "CO",
+    "year": 2011,
+    "population": 5118400
+  },
+  {
+    "state": "CO",
+    "year": 2012,
+    "population": 5189458
+  },
+  {
+    "state": "CO",
+    "year": 2013,
+    "population": 5268367
+  },
+  {
+    "state": "CT",
+    "year": 1990,
+    "population": 3291967
+  },
+  {
+    "state": "CT",
+    "year": 1991,
+    "population": 3302895
+  },
+  {
+    "state": "CT",
+    "year": 1992,
+    "population": 3300712
+  },
+  {
+    "state": "CT",
+    "year": 1993,
+    "population": 3309175
+  },
+  {
+    "state": "CT",
+    "year": 1994,
+    "population": 3316121
+  },
+  {
+    "state": "CT",
+    "year": 1995,
+    "population": 3324144
+  },
+  {
+    "state": "CT",
+    "year": 1996,
+    "population": 3336685
+  },
+  {
+    "state": "CT",
+    "year": 1997,
+    "population": 3349348
+  },
+  {
+    "state": "CT",
+    "year": 1998,
+    "population": 3365352
+  },
+  {
+    "state": "CT",
+    "year": 1999,
+    "population": 3386401
+  },
+  {
+    "state": "CT",
+    "year": 2000,
+    "population": 3411777
+  },
+  {
+    "state": "CT",
+    "year": 2001,
+    "population": 3432835
+  },
+  {
+    "state": "CT",
+    "year": 2002,
+    "population": 3458749
+  },
+  {
+    "state": "CT",
+    "year": 2003,
+    "population": 3484336
+  },
+  {
+    "state": "CT",
+    "year": 2004,
+    "population": 3496094
+  },
+  {
+    "state": "CT",
+    "year": 2005,
+    "population": 3506956
+  },
+  {
+    "state": "CT",
+    "year": 2006,
+    "population": 3517460
+  },
+  {
+    "state": "CT",
+    "year": 2007,
+    "population": 3527270
+  },
+  {
+    "state": "CT",
+    "year": 2008,
+    "population": 3545579
+  },
+  {
+    "state": "CT",
+    "year": 2009,
+    "population": 3561807
+  },
+  {
+    "state": "CT",
+    "year": 2010,
+    "population": 3579210
+  },
+  {
+    "state": "CT",
+    "year": 2011,
+    "population": 3588948
+  },
+  {
+    "state": "CT",
+    "year": 2012,
+    "population": 3591765
+  },
+  {
+    "state": "CT",
+    "year": 2013,
+    "population": 3596080
+  },
+  {
+    "state": "DC",
+    "year": 1990,
+    "population": 605321
+  },
+  {
+    "state": "DC",
+    "year": 1991,
+    "population": 600870
+  },
+  {
+    "state": "DC",
+    "year": 1992,
+    "population": 597567
+  },
+  {
+    "state": "DC",
+    "year": 1993,
+    "population": 595302
+  },
+  {
+    "state": "DC",
+    "year": 1994,
+    "population": 589240
+  },
+  {
+    "state": "DC",
+    "year": 1995,
+    "population": 580519
+  },
+  {
+    "state": "DC",
+    "year": 1996,
+    "population": 572379
+  },
+  {
+    "state": "DC",
+    "year": 1997,
+    "population": 567739
+  },
+  {
+    "state": "DC",
+    "year": 1998,
+    "population": 565232
+  },
+  {
+    "state": "DC",
+    "year": 1999,
+    "population": 570220
+  },
+  {
+    "state": "DC",
+    "year": 2000,
+    "population": 572046
+  },
+  {
+    "state": "DC",
+    "year": 2001,
+    "population": 574504
+  },
+  {
+    "state": "DC",
+    "year": 2002,
+    "population": 573158
+  },
+  {
+    "state": "DC",
+    "year": 2003,
+    "population": 568502
+  },
+  {
+    "state": "DC",
+    "year": 2004,
+    "population": 567754
+  },
+  {
+    "state": "DC",
+    "year": 2005,
+    "population": 567136
+  },
+  {
+    "state": "DC",
+    "year": 2006,
+    "population": 570681
+  },
+  {
+    "state": "DC",
+    "year": 2007,
+    "population": 574404
+  },
+  {
+    "state": "DC",
+    "year": 2008,
+    "population": 580236
+  },
+  {
+    "state": "DC",
+    "year": 2009,
+    "population": 592228
+  },
+  {
+    "state": "DC",
+    "year": 2010,
+    "population": 605125
+  },
+  {
+    "state": "DC",
+    "year": 2011,
+    "population": 619624
+  },
+  {
+    "state": "DC",
+    "year": 2012,
+    "population": 633427
+  },
+  {
+    "state": "DC",
+    "year": 2013,
+    "population": 646449
+  },
+  {
+    "state": "DE",
+    "year": 1990,
+    "population": 669567
+  },
+  {
+    "state": "DE",
+    "year": 1991,
+    "population": 683080
+  },
+  {
+    "state": "DE",
+    "year": 1992,
+    "population": 694927
+  },
+  {
+    "state": "DE",
+    "year": 1993,
+    "population": 706378
+  },
+  {
+    "state": "DE",
+    "year": 1994,
+    "population": 717545
+  },
+  {
+    "state": "DE",
+    "year": 1995,
+    "population": 729735
+  },
+  {
+    "state": "DE",
+    "year": 1996,
+    "population": 740978
+  },
+  {
+    "state": "DE",
+    "year": 1997,
+    "population": 751487
+  },
+  {
+    "state": "DE",
+    "year": 1998,
+    "population": 763335
+  },
+  {
+    "state": "DE",
+    "year": 1999,
+    "population": 774990
+  },
+  {
+    "state": "DE",
+    "year": 2000,
+    "population": 786373
+  },
+  {
+    "state": "DE",
+    "year": 2001,
+    "population": 795699
+  },
+  {
+    "state": "DE",
+    "year": 2002,
+    "population": 806169
+  },
+  {
+    "state": "DE",
+    "year": 2003,
+    "population": 818003
+  },
+  {
+    "state": "DE",
+    "year": 2004,
+    "population": 830803
+  },
+  {
+    "state": "DE",
+    "year": 2005,
+    "population": 845150
+  },
+  {
+    "state": "DE",
+    "year": 2006,
+    "population": 859268
+  },
+  {
+    "state": "DE",
+    "year": 2007,
+    "population": 871749
+  },
+  {
+    "state": "DE",
+    "year": 2008,
+    "population": 883874
+  },
+  {
+    "state": "DE",
+    "year": 2009,
+    "population": 891730
+  },
+  {
+    "state": "DE",
+    "year": 2010,
+    "population": 899711
+  },
+  {
+    "state": "DE",
+    "year": 2011,
+    "population": 907985
+  },
+  {
+    "state": "DE",
+    "year": 2012,
+    "population": 917053
+  },
+  {
+    "state": "DE",
+    "year": 2013,
+    "population": 925749
+  },
+  {
+    "state": "FL",
+    "year": 1990,
+    "population": 13033307
+  },
+  {
+    "state": "FL",
+    "year": 1991,
+    "population": 13369798
+  },
+  {
+    "state": "FL",
+    "year": 1992,
+    "population": 13650553
+  },
+  {
+    "state": "FL",
+    "year": 1993,
+    "population": 13927185
+  },
+  {
+    "state": "FL",
+    "year": 1994,
+    "population": 14239444
+  },
+  {
+    "state": "FL",
+    "year": 1995,
+    "population": 14537875
+  },
+  {
+    "state": "FL",
+    "year": 1996,
+    "population": 14853360
+  },
+  {
+    "state": "FL",
+    "year": 1997,
+    "population": 15186304
+  },
+  {
+    "state": "FL",
+    "year": 1998,
+    "population": 15486559
+  },
+  {
+    "state": "FL",
+    "year": 1999,
+    "population": 15759421
+  },
+  {
+    "state": "FL",
+    "year": 2000,
+    "population": 16047515
+  },
+  {
+    "state": "FL",
+    "year": 2001,
+    "population": 16356966
+  },
+  {
+    "state": "FL",
+    "year": 2002,
+    "population": 16689370
+  },
+  {
+    "state": "FL",
+    "year": 2003,
+    "population": 17004085
+  },
+  {
+    "state": "FL",
+    "year": 2004,
+    "population": 17415318
+  },
+  {
+    "state": "FL",
+    "year": 2005,
+    "population": 17842038
+  },
+  {
+    "state": "FL",
+    "year": 2006,
+    "population": 18166990
+  },
+  {
+    "state": "FL",
+    "year": 2007,
+    "population": 18367842
+  },
+  {
+    "state": "FL",
+    "year": 2008,
+    "population": 18527305
+  },
+  {
+    "state": "FL",
+    "year": 2009,
+    "population": 18652644
+  },
+  {
+    "state": "FL",
+    "year": 2010,
+    "population": 18846054
+  },
+  {
+    "state": "FL",
+    "year": 2011,
+    "population": 19083482
+  },
+  {
+    "state": "FL",
+    "year": 2012,
+    "population": 19320749
+  },
+  {
+    "state": "FL",
+    "year": 2013,
+    "population": 19552860
+  },
+  {
+    "state": "GA",
+    "year": 1990,
+    "population": 6512602
+  },
+  {
+    "state": "GA",
+    "year": 1991,
+    "population": 6653005
+  },
+  {
+    "state": "GA",
+    "year": 1992,
+    "population": 6817203
+  },
+  {
+    "state": "GA",
+    "year": 1993,
+    "population": 6978240
+  },
+  {
+    "state": "GA",
+    "year": 1994,
+    "population": 7157165
+  },
+  {
+    "state": "GA",
+    "year": 1995,
+    "population": 7328413
+  },
+  {
+    "state": "GA",
+    "year": 1996,
+    "population": 7501069
+  },
+  {
+    "state": "GA",
+    "year": 1997,
+    "population": 7685099
+  },
+  {
+    "state": "GA",
+    "year": 1998,
+    "population": 7863536
+  },
+  {
+    "state": "GA",
+    "year": 1999,
+    "population": 8045965
+  },
+  {
+    "state": "GA",
+    "year": 2000,
+    "population": 8227303
+  },
+  {
+    "state": "GA",
+    "year": 2001,
+    "population": 8377038
+  },
+  {
+    "state": "GA",
+    "year": 2002,
+    "population": 8508256
+  },
+  {
+    "state": "GA",
+    "year": 2003,
+    "population": 8622793
+  },
+  {
+    "state": "GA",
+    "year": 2004,
+    "population": 8769252
+  },
+  {
+    "state": "GA",
+    "year": 2005,
+    "population": 8925922
+  },
+  {
+    "state": "GA",
+    "year": 2006,
+    "population": 9155813
+  },
+  {
+    "state": "GA",
+    "year": 2007,
+    "population": 9349988
+  },
+  {
+    "state": "GA",
+    "year": 2008,
+    "population": 9504843
+  },
+  {
+    "state": "GA",
+    "year": 2009,
+    "population": 9620846
+  },
+  {
+    "state": "GA",
+    "year": 2010,
+    "population": 9713248
+  },
+  {
+    "state": "GA",
+    "year": 2011,
+    "population": 9810181
+  },
+  {
+    "state": "GA",
+    "year": 2012,
+    "population": 9915646
+  },
+  {
+    "state": "GA",
+    "year": 2013,
+    "population": 9992167
+  },
+  {
+    "state": "HI",
+    "year": 1990,
+    "population": 1113491
+  },
+  {
+    "state": "HI",
+    "year": 1991,
+    "population": 1136754
+  },
+  {
+    "state": "HI",
+    "year": 1992,
+    "population": 1158613
+  },
+  {
+    "state": "HI",
+    "year": 1993,
+    "population": 1172838
+  },
+  {
+    "state": "HI",
+    "year": 1994,
+    "population": 1187536
+  },
+  {
+    "state": "HI",
+    "year": 1995,
+    "population": 1196854
+  },
+  {
+    "state": "HI",
+    "year": 1996,
+    "population": 1203755
+  },
+  {
+    "state": "HI",
+    "year": 1997,
+    "population": 1211640
+  },
+  {
+    "state": "HI",
+    "year": 1998,
+    "population": 1215233
+  },
+  {
+    "state": "HI",
+    "year": 1999,
+    "population": 1210300
+  },
+  {
+    "state": "HI",
+    "year": 2000,
+    "population": 1213519
+  },
+  {
+    "state": "HI",
+    "year": 2001,
+    "population": 1225948
+  },
+  {
+    "state": "HI",
+    "year": 2002,
+    "population": 1239613
+  },
+  {
+    "state": "HI",
+    "year": 2003,
+    "population": 1251154
+  },
+  {
+    "state": "HI",
+    "year": 2004,
+    "population": 1273569
+  },
+  {
+    "state": "HI",
+    "year": 2005,
+    "population": 1292729
+  },
+  {
+    "state": "HI",
+    "year": 2006,
+    "population": 1309731
+  },
+  {
+    "state": "HI",
+    "year": 2007,
+    "population": 1315675
+  },
+  {
+    "state": "HI",
+    "year": 2008,
+    "population": 1332213
+  },
+  {
+    "state": "HI",
+    "year": 2009,
+    "population": 1346717
+  },
+  {
+    "state": "HI",
+    "year": 2010,
+    "population": 1363731
+  },
+  {
+    "state": "HI",
+    "year": 2011,
+    "population": 1376897
+  },
+  {
+    "state": "HI",
+    "year": 2012,
+    "population": 1390090
+  },
+  {
+    "state": "HI",
+    "year": 2013,
+    "population": 1404054
+  },
+  {
+    "state": "IA",
+    "year": 1990,
+    "population": 2781018
+  },
+  {
+    "state": "IA",
+    "year": 1991,
+    "population": 2797613
+  },
+  {
+    "state": "IA",
+    "year": 1992,
+    "population": 2818401
+  },
+  {
+    "state": "IA",
+    "year": 1993,
+    "population": 2836972
+  },
+  {
+    "state": "IA",
+    "year": 1994,
+    "population": 2850746
+  },
+  {
+    "state": "IA",
+    "year": 1995,
+    "population": 2867373
+  },
+  {
+    "state": "IA",
+    "year": 1996,
+    "population": 2880001
+  },
+  {
+    "state": "IA",
+    "year": 1997,
+    "population": 2891119
+  },
+  {
+    "state": "IA",
+    "year": 1998,
+    "population": 2902872
+  },
+  {
+    "state": "IA",
+    "year": 1999,
+    "population": 2917634
+  },
+  {
+    "state": "IA",
+    "year": 2000,
+    "population": 2929067
+  },
+  {
+    "state": "IA",
+    "year": 2001,
+    "population": 2931997
+  },
+  {
+    "state": "IA",
+    "year": 2002,
+    "population": 2934234
+  },
+  {
+    "state": "IA",
+    "year": 2003,
+    "population": 2941999
+  },
+  {
+    "state": "IA",
+    "year": 2004,
+    "population": 2953635
+  },
+  {
+    "state": "IA",
+    "year": 2005,
+    "population": 2964454
+  },
+  {
+    "state": "IA",
+    "year": 2006,
+    "population": 2982644
+  },
+  {
+    "state": "IA",
+    "year": 2007,
+    "population": 2999212
+  },
+  {
+    "state": "IA",
+    "year": 2008,
+    "population": 3016734
+  },
+  {
+    "state": "IA",
+    "year": 2009,
+    "population": 3032870
+  },
+  {
+    "state": "IA",
+    "year": 2010,
+    "population": 3050314
+  },
+  {
+    "state": "IA",
+    "year": 2011,
+    "population": 3064102
+  },
+  {
+    "state": "IA",
+    "year": 2012,
+    "population": 3075039
+  },
+  {
+    "state": "IA",
+    "year": 2013,
+    "population": 3090416
+  },
+  {
+    "state": "ID",
+    "year": 1990,
+    "population": 1012384
+  },
+  {
+    "state": "ID",
+    "year": 1991,
+    "population": 1041316
+  },
+  {
+    "state": "ID",
+    "year": 1992,
+    "population": 1071685
+  },
+  {
+    "state": "ID",
+    "year": 1993,
+    "population": 1108768
+  },
+  {
+    "state": "ID",
+    "year": 1994,
+    "population": 1145140
+  },
+  {
+    "state": "ID",
+    "year": 1995,
+    "population": 1177322
+  },
+  {
+    "state": "ID",
+    "year": 1996,
+    "population": 1203083
+  },
+  {
+    "state": "ID",
+    "year": 1997,
+    "population": 1228520
+  },
+  {
+    "state": "ID",
+    "year": 1998,
+    "population": 1252330
+  },
+  {
+    "state": "ID",
+    "year": 1999,
+    "population": 1275674
+  },
+  {
+    "state": "ID",
+    "year": 2000,
+    "population": 1299430
+  },
+  {
+    "state": "ID",
+    "year": 2001,
+    "population": 1319962
+  },
+  {
+    "state": "ID",
+    "year": 2002,
+    "population": 1340372
+  },
+  {
+    "state": "ID",
+    "year": 2003,
+    "population": 1363380
+  },
+  {
+    "state": "ID",
+    "year": 2004,
+    "population": 1391802
+  },
+  {
+    "state": "ID",
+    "year": 2005,
+    "population": 1428241
+  },
+  {
+    "state": "ID",
+    "year": 2006,
+    "population": 1468669
+  },
+  {
+    "state": "ID",
+    "year": 2007,
+    "population": 1505105
+  },
+  {
+    "state": "ID",
+    "year": 2008,
+    "population": 1534320
+  },
+  {
+    "state": "ID",
+    "year": 2009,
+    "population": 1554439
+  },
+  {
+    "state": "ID",
+    "year": 2010,
+    "population": 1570718
+  },
+  {
+    "state": "ID",
+    "year": 2011,
+    "population": 1583930
+  },
+  {
+    "state": "ID",
+    "year": 2012,
+    "population": 1595590
+  },
+  {
+    "state": "ID",
+    "year": 2013,
+    "population": 1612136
+  },
+  {
+    "state": "IL",
+    "year": 1990,
+    "population": 11453316
+  },
+  {
+    "state": "IL",
+    "year": 1991,
+    "population": 11568964
+  },
+  {
+    "state": "IL",
+    "year": 1992,
+    "population": 11694184
+  },
+  {
+    "state": "IL",
+    "year": 1993,
+    "population": 11809579
+  },
+  {
+    "state": "IL",
+    "year": 1994,
+    "population": 11912585
+  },
+  {
+    "state": "IL",
+    "year": 1995,
+    "population": 12008437
+  },
+  {
+    "state": "IL",
+    "year": 1996,
+    "population": 12101997
+  },
+  {
+    "state": "IL",
+    "year": 1997,
+    "population": 12185715
+  },
+  {
+    "state": "IL",
+    "year": 1998,
+    "population": 12271847
+  },
+  {
+    "state": "IL",
+    "year": 1999,
+    "population": 12359020
+  },
+  {
+    "state": "IL",
+    "year": 2000,
+    "population": 12434161
+  },
+  {
+    "state": "IL",
+    "year": 2001,
+    "population": 12488445
+  },
+  {
+    "state": "IL",
+    "year": 2002,
+    "population": 12525556
+  },
+  {
+    "state": "IL",
+    "year": 2003,
+    "population": 12556006
+  },
+  {
+    "state": "IL",
+    "year": 2004,
+    "population": 12589773
+  },
+  {
+    "state": "IL",
+    "year": 2005,
+    "population": 12609903
+  },
+  {
+    "state": "IL",
+    "year": 2006,
+    "population": 12643955
+  },
+  {
+    "state": "IL",
+    "year": 2007,
+    "population": 12695866
+  },
+  {
+    "state": "IL",
+    "year": 2008,
+    "population": 12747038
+  },
+  {
+    "state": "IL",
+    "year": 2009,
+    "population": 12796778
+  },
+  {
+    "state": "IL",
+    "year": 2010,
+    "population": 12839695
+  },
+  {
+    "state": "IL",
+    "year": 2011,
+    "population": 12855970
+  },
+  {
+    "state": "IL",
+    "year": 2012,
+    "population": 12868192
+  },
+  {
+    "state": "IL",
+    "year": 2013,
+    "population": 12882135
+  },
+  {
+    "state": "IN",
+    "year": 1990,
+    "population": 5557798
+  },
+  {
+    "state": "IN",
+    "year": 1991,
+    "population": 5616388
+  },
+  {
+    "state": "IN",
+    "year": 1992,
+    "population": 5674547
+  },
+  {
+    "state": "IN",
+    "year": 1993,
+    "population": 5739019
+  },
+  {
+    "state": "IN",
+    "year": 1994,
+    "population": 5793526
+  },
+  {
+    "state": "IN",
+    "year": 1995,
+    "population": 5851459
+  },
+  {
+    "state": "IN",
+    "year": 1996,
+    "population": 5906013
+  },
+  {
+    "state": "IN",
+    "year": 1997,
+    "population": 5955267
+  },
+  {
+    "state": "IN",
+    "year": 1998,
+    "population": 5998881
+  },
+  {
+    "state": "IN",
+    "year": 1999,
+    "population": 6044970
+  },
+  {
+    "state": "IN",
+    "year": 2000,
+    "population": 6091866
+  },
+  {
+    "state": "IN",
+    "year": 2001,
+    "population": 6127760
+  },
+  {
+    "state": "IN",
+    "year": 2002,
+    "population": 6155967
+  },
+  {
+    "state": "IN",
+    "year": 2003,
+    "population": 6196638
+  },
+  {
+    "state": "IN",
+    "year": 2004,
+    "population": 6233007
+  },
+  {
+    "state": "IN",
+    "year": 2005,
+    "population": 6278616
+  },
+  {
+    "state": "IN",
+    "year": 2006,
+    "population": 6332669
+  },
+  {
+    "state": "IN",
+    "year": 2007,
+    "population": 6379599
+  },
+  {
+    "state": "IN",
+    "year": 2008,
+    "population": 6424806
+  },
+  {
+    "state": "IN",
+    "year": 2009,
+    "population": 6459325
+  },
+  {
+    "state": "IN",
+    "year": 2010,
+    "population": 6489965
+  },
+  {
+    "state": "IN",
+    "year": 2011,
+    "population": 6516336
+  },
+  {
+    "state": "IN",
+    "year": 2012,
+    "population": 6537782
+  },
+  {
+    "state": "IN",
+    "year": 2013,
+    "population": 6570902
+  },
+  {
+    "state": "KS",
+    "year": 1990,
+    "population": 2481349
+  },
+  {
+    "state": "KS",
+    "year": 1991,
+    "population": 2498722
+  },
+  {
+    "state": "KS",
+    "year": 1992,
+    "population": 2532395
+  },
+  {
+    "state": "KS",
+    "year": 1993,
+    "population": 2556547
+  },
+  {
+    "state": "KS",
+    "year": 1994,
+    "population": 2580513
+  },
+  {
+    "state": "KS",
+    "year": 1995,
+    "population": 2601008
+  },
+  {
+    "state": "KS",
+    "year": 1996,
+    "population": 2614554
+  },
+  {
+    "state": "KS",
+    "year": 1997,
+    "population": 2635292
+  },
+  {
+    "state": "KS",
+    "year": 1998,
+    "population": 2660598
+  },
+  {
+    "state": "KS",
+    "year": 1999,
+    "population": 2678338
+  },
+  {
+    "state": "KS",
+    "year": 2000,
+    "population": 2693681
+  },
+  {
+    "state": "KS",
+    "year": 2001,
+    "population": 2702162
+  },
+  {
+    "state": "KS",
+    "year": 2002,
+    "population": 2713535
+  },
+  {
+    "state": "KS",
+    "year": 2003,
+    "population": 2723004
+  },
+  {
+    "state": "KS",
+    "year": 2004,
+    "population": 2734373
+  },
+  {
+    "state": "KS",
+    "year": 2005,
+    "population": 2745299
+  },
+  {
+    "state": "KS",
+    "year": 2006,
+    "population": 2762931
+  },
+  {
+    "state": "KS",
+    "year": 2007,
+    "population": 2783785
+  },
+  {
+    "state": "KS",
+    "year": 2008,
+    "population": 2808076
+  },
+  {
+    "state": "KS",
+    "year": 2009,
+    "population": 2832704
+  },
+  {
+    "state": "KS",
+    "year": 2010,
+    "population": 2858910
+  },
+  {
+    "state": "KS",
+    "year": 2011,
+    "population": 2869548
+  },
+  {
+    "state": "KS",
+    "year": 2012,
+    "population": 2885398
+  },
+  {
+    "state": "KS",
+    "year": 2013,
+    "population": 2893957
+  },
+  {
+    "state": "KY",
+    "year": 1990,
+    "population": 3694048
+  },
+  {
+    "state": "KY",
+    "year": 1991,
+    "population": 3722328
+  },
+  {
+    "state": "KY",
+    "year": 1992,
+    "population": 3765469
+  },
+  {
+    "state": "KY",
+    "year": 1993,
+    "population": 3812206
+  },
+  {
+    "state": "KY",
+    "year": 1994,
+    "population": 3849088
+  },
+  {
+    "state": "KY",
+    "year": 1995,
+    "population": 3887427
+  },
+  {
+    "state": "KY",
+    "year": 1996,
+    "population": 3919536
+  },
+  {
+    "state": "KY",
+    "year": 1997,
+    "population": 3952747
+  },
+  {
+    "state": "KY",
+    "year": 1998,
+    "population": 3985391
+  },
+  {
+    "state": "KY",
+    "year": 1999,
+    "population": 4018053
+  },
+  {
+    "state": "KY",
+    "year": 2000,
+    "population": 4049021
+  },
+  {
+    "state": "KY",
+    "year": 2001,
+    "population": 4068132
+  },
+  {
+    "state": "KY",
+    "year": 2002,
+    "population": 4089875
+  },
+  {
+    "state": "KY",
+    "year": 2003,
+    "population": 4117170
+  },
+  {
+    "state": "KY",
+    "year": 2004,
+    "population": 4146101
+  },
+  {
+    "state": "KY",
+    "year": 2005,
+    "population": 4182742
+  },
+  {
+    "state": "KY",
+    "year": 2006,
+    "population": 4219239
+  },
+  {
+    "state": "KY",
+    "year": 2007,
+    "population": 4256672
+  },
+  {
+    "state": "KY",
+    "year": 2008,
+    "population": 4289878
+  },
+  {
+    "state": "KY",
+    "year": 2009,
+    "population": 4317074
+  },
+  {
+    "state": "KY",
+    "year": 2010,
+    "population": 4347698
+  },
+  {
+    "state": "KY",
+    "year": 2011,
+    "population": 4366869
+  },
+  {
+    "state": "KY",
+    "year": 2012,
+    "population": 4379730
+  },
+  {
+    "state": "KY",
+    "year": 2013,
+    "population": 4395295
+  },
+  {
+    "state": "LA",
+    "year": 1990,
+    "population": 4221532
+  },
+  {
+    "state": "LA",
+    "year": 1991,
+    "population": 4253279
+  },
+  {
+    "state": "LA",
+    "year": 1992,
+    "population": 4293003
+  },
+  {
+    "state": "LA",
+    "year": 1993,
+    "population": 4316428
+  },
+  {
+    "state": "LA",
+    "year": 1994,
+    "population": 4347481
+  },
+  {
+    "state": "LA",
+    "year": 1995,
+    "population": 4378779
+  },
+  {
+    "state": "LA",
+    "year": 1996,
+    "population": 4398877
+  },
+  {
+    "state": "LA",
+    "year": 1997,
+    "population": 4421072
+  },
+  {
+    "state": "LA",
+    "year": 1998,
+    "population": 4440344
+  },
+  {
+    "state": "LA",
+    "year": 1999,
+    "population": 4460811
+  },
+  {
+    "state": "LA",
+    "year": 2000,
+    "population": 4471885
+  },
+  {
+    "state": "LA",
+    "year": 2001,
+    "population": 4477875
+  },
+  {
+    "state": "LA",
+    "year": 2002,
+    "population": 4497267
+  },
+  {
+    "state": "LA",
+    "year": 2003,
+    "population": 4521042
+  },
+  {
+    "state": "LA",
+    "year": 2004,
+    "population": 4552238
+  },
+  {
+    "state": "LA",
+    "year": 2005,
+    "population": 4576628
+  },
+  {
+    "state": "LA",
+    "year": 2006,
+    "population": 4302665
+  },
+  {
+    "state": "LA",
+    "year": 2007,
+    "population": 4375581
+  },
+  {
+    "state": "LA",
+    "year": 2008,
+    "population": 4435586
+  },
+  {
+    "state": "LA",
+    "year": 2009,
+    "population": 4491648
+  },
+  {
+    "state": "LA",
+    "year": 2010,
+    "population": 4545392
+  },
+  {
+    "state": "LA",
+    "year": 2011,
+    "population": 4575197
+  },
+  {
+    "state": "LA",
+    "year": 2012,
+    "population": 4602134
+  },
+  {
+    "state": "LA",
+    "year": 2013,
+    "population": 4625470
+  },
+  {
+    "state": "MA",
+    "year": 1990,
+    "population": 6022639
+  },
+  {
+    "state": "MA",
+    "year": 1991,
+    "population": 6018470
+  },
+  {
+    "state": "MA",
+    "year": 1992,
+    "population": 6028709
+  },
+  {
+    "state": "MA",
+    "year": 1993,
+    "population": 6060569
+  },
+  {
+    "state": "MA",
+    "year": 1994,
+    "population": 6095241
+  },
+  {
+    "state": "MA",
+    "year": 1995,
+    "population": 6141445
+  },
+  {
+    "state": "MA",
+    "year": 1996,
+    "population": 6179756
+  },
+  {
+    "state": "MA",
+    "year": 1997,
+    "population": 6226058
+  },
+  {
+    "state": "MA",
+    "year": 1998,
+    "population": 6271838
+  },
+  {
+    "state": "MA",
+    "year": 1999,
+    "population": 6317345
+  },
+  {
+    "state": "MA",
+    "year": 2000,
+    "population": 6361104
+  },
+  {
+    "state": "MA",
+    "year": 2001,
+    "population": 6397634
+  },
+  {
+    "state": "MA",
+    "year": 2002,
+    "population": 6417206
+  },
+  {
+    "state": "MA",
+    "year": 2003,
+    "population": 6422565
+  },
+  {
+    "state": "MA",
+    "year": 2004,
+    "population": 6412281
+  },
+  {
+    "state": "MA",
+    "year": 2005,
+    "population": 6403290
+  },
+  {
+    "state": "MA",
+    "year": 2006,
+    "population": 6410084
+  },
+  {
+    "state": "MA",
+    "year": 2007,
+    "population": 6431559
+  },
+  {
+    "state": "MA",
+    "year": 2008,
+    "population": 6468967
+  },
+  {
+    "state": "MA",
+    "year": 2009,
+    "population": 6517613
+  },
+  {
+    "state": "MA",
+    "year": 2010,
+    "population": 6563263
+  },
+  {
+    "state": "MA",
+    "year": 2011,
+    "population": 6606285
+  },
+  {
+    "state": "MA",
+    "year": 2012,
+    "population": 6645303
+  },
+  {
+    "state": "MA",
+    "year": 2013,
+    "population": 6692824
+  },
+  {
+    "state": "MD",
+    "year": 1990,
+    "population": 4799770
+  },
+  {
+    "state": "MD",
+    "year": 1991,
+    "population": 4867641
+  },
+  {
+    "state": "MD",
+    "year": 1992,
+    "population": 4923369
+  },
+  {
+    "state": "MD",
+    "year": 1993,
+    "population": 4971889
+  },
+  {
+    "state": "MD",
+    "year": 1994,
+    "population": 5023060
+  },
+  {
+    "state": "MD",
+    "year": 1995,
+    "population": 5070033
+  },
+  {
+    "state": "MD",
+    "year": 1996,
+    "population": 5111986
+  },
+  {
+    "state": "MD",
+    "year": 1997,
+    "population": 5157328
+  },
+  {
+    "state": "MD",
+    "year": 1998,
+    "population": 5204464
+  },
+  {
+    "state": "MD",
+    "year": 1999,
+    "population": 5254509
+  },
+  {
+    "state": "MD",
+    "year": 2000,
+    "population": 5311034
+  },
+  {
+    "state": "MD",
+    "year": 2001,
+    "population": 5374691
+  },
+  {
+    "state": "MD",
+    "year": 2002,
+    "population": 5440389
+  },
+  {
+    "state": "MD",
+    "year": 2003,
+    "population": 5496269
+  },
+  {
+    "state": "MD",
+    "year": 2004,
+    "population": 5546935
+  },
+  {
+    "state": "MD",
+    "year": 2005,
+    "population": 5592379
+  },
+  {
+    "state": "MD",
+    "year": 2006,
+    "population": 5627367
+  },
+  {
+    "state": "MD",
+    "year": 2007,
+    "population": 5653408
+  },
+  {
+    "state": "MD",
+    "year": 2008,
+    "population": 5684965
+  },
+  {
+    "state": "MD",
+    "year": 2009,
+    "population": 5730388
+  },
+  {
+    "state": "MD",
+    "year": 2010,
+    "population": 5787193
+  },
+  {
+    "state": "MD",
+    "year": 2011,
+    "population": 5840241
+  },
+  {
+    "state": "MD",
+    "year": 2012,
+    "population": 5884868
+  },
+  {
+    "state": "MD",
+    "year": 2013,
+    "population": 5928814
+  },
+  {
+    "state": "ME",
+    "year": 1990,
+    "population": 1231719
+  },
+  {
+    "state": "ME",
+    "year": 1991,
+    "population": 1237081
+  },
+  {
+    "state": "ME",
+    "year": 1992,
+    "population": 1238508
+  },
+  {
+    "state": "ME",
+    "year": 1993,
+    "population": 1242302
+  },
+  {
+    "state": "ME",
+    "year": 1994,
+    "population": 1242662
+  },
+  {
+    "state": "ME",
+    "year": 1995,
+    "population": 1243481
+  },
+  {
+    "state": "ME",
+    "year": 1996,
+    "population": 1249060
+  },
+  {
+    "state": "ME",
+    "year": 1997,
+    "population": 1254774
+  },
+  {
+    "state": "ME",
+    "year": 1998,
+    "population": 1259127
+  },
+  {
+    "state": "ME",
+    "year": 1999,
+    "population": 1266808
+  },
+  {
+    "state": "ME",
+    "year": 2000,
+    "population": 1277072
+  },
+  {
+    "state": "ME",
+    "year": 2001,
+    "population": 1285692
+  },
+  {
+    "state": "ME",
+    "year": 2002,
+    "population": 1295960
+  },
+  {
+    "state": "ME",
+    "year": 2003,
+    "population": 1306513
+  },
+  {
+    "state": "ME",
+    "year": 2004,
+    "population": 1313688
+  },
+  {
+    "state": "ME",
+    "year": 2005,
+    "population": 1318787
+  },
+  {
+    "state": "ME",
+    "year": 2006,
+    "population": 1323619
+  },
+  {
+    "state": "ME",
+    "year": 2007,
+    "population": 1327040
+  },
+  {
+    "state": "ME",
+    "year": 2008,
+    "population": 1330509
+  },
+  {
+    "state": "ME",
+    "year": 2009,
+    "population": 1329590
+  },
+  {
+    "state": "ME",
+    "year": 2010,
+    "population": 1327366
+  },
+  {
+    "state": "ME",
+    "year": 2011,
+    "population": 1327844
+  },
+  {
+    "state": "ME",
+    "year": 2012,
+    "population": 1328501
+  },
+  {
+    "state": "ME",
+    "year": 2013,
+    "population": 1328302
+  },
+  {
+    "state": "MI",
+    "year": 1990,
+    "population": 9311319
+  },
+  {
+    "state": "MI",
+    "year": 1991,
+    "population": 9400446
+  },
+  {
+    "state": "MI",
+    "year": 1992,
+    "population": 9479065
+  },
+  {
+    "state": "MI",
+    "year": 1993,
+    "population": 9540114
+  },
+  {
+    "state": "MI",
+    "year": 1994,
+    "population": 9597737
+  },
+  {
+    "state": "MI",
+    "year": 1995,
+    "population": 9676211
+  },
+  {
+    "state": "MI",
+    "year": 1996,
+    "population": 9758645
+  },
+  {
+    "state": "MI",
+    "year": 1997,
+    "population": 9809051
+  },
+  {
+    "state": "MI",
+    "year": 1998,
+    "population": 9847942
+  },
+  {
+    "state": "MI",
+    "year": 1999,
+    "population": 9897116
+  },
+  {
+    "state": "MI",
+    "year": 2000,
+    "population": 9952450
+  },
+  {
+    "state": "MI",
+    "year": 2001,
+    "population": 9991120
+  },
+  {
+    "state": "MI",
+    "year": 2002,
+    "population": 10015710
+  },
+  {
+    "state": "MI",
+    "year": 2003,
+    "population": 10041152
+  },
+  {
+    "state": "MI",
+    "year": 2004,
+    "population": 10055315
+  },
+  {
+    "state": "MI",
+    "year": 2005,
+    "population": 10051137
+  },
+  {
+    "state": "MI",
+    "year": 2006,
+    "population": 10036081
+  },
+  {
+    "state": "MI",
+    "year": 2007,
+    "population": 10001284
+  },
+  {
+    "state": "MI",
+    "year": 2008,
+    "population": 9946889
+  },
+  {
+    "state": "MI",
+    "year": 2009,
+    "population": 9901591
+  },
+  {
+    "state": "MI",
+    "year": 2010,
+    "population": 9876149
+  },
+  {
+    "state": "MI",
+    "year": 2011,
+    "population": 9874589
+  },
+  {
+    "state": "MI",
+    "year": 2012,
+    "population": 9882519
+  },
+  {
+    "state": "MI",
+    "year": 2013,
+    "population": 9895622
+  },
+  {
+    "state": "MN",
+    "year": 1990,
+    "population": 4389857
+  },
+  {
+    "state": "MN",
+    "year": 1991,
+    "population": 4440859
+  },
+  {
+    "state": "MN",
+    "year": 1992,
+    "population": 4495572
+  },
+  {
+    "state": "MN",
+    "year": 1993,
+    "population": 4555956
+  },
+  {
+    "state": "MN",
+    "year": 1994,
+    "population": 4610355
+  },
+  {
+    "state": "MN",
+    "year": 1995,
+    "population": 4660180
+  },
+  {
+    "state": "MN",
+    "year": 1996,
+    "population": 4712827
+  },
+  {
+    "state": "MN",
+    "year": 1997,
+    "population": 4763390
+  },
+  {
+    "state": "MN",
+    "year": 1998,
+    "population": 4813412
+  },
+  {
+    "state": "MN",
+    "year": 1999,
+    "population": 4873481
+  },
+  {
+    "state": "MN",
+    "year": 2000,
+    "population": 4933692
+  },
+  {
+    "state": "MN",
+    "year": 2001,
+    "population": 4982796
+  },
+  {
+    "state": "MN",
+    "year": 2002,
+    "population": 5018935
+  },
+  {
+    "state": "MN",
+    "year": 2003,
+    "population": 5053572
+  },
+  {
+    "state": "MN",
+    "year": 2004,
+    "population": 5087713
+  },
+  {
+    "state": "MN",
+    "year": 2005,
+    "population": 5119598
+  },
+  {
+    "state": "MN",
+    "year": 2006,
+    "population": 5163555
+  },
+  {
+    "state": "MN",
+    "year": 2007,
+    "population": 5207203
+  },
+  {
+    "state": "MN",
+    "year": 2008,
+    "population": 5247018
+  },
+  {
+    "state": "MN",
+    "year": 2009,
+    "population": 5281203
+  },
+  {
+    "state": "MN",
+    "year": 2010,
+    "population": 5310337
+  },
+  {
+    "state": "MN",
+    "year": 2011,
+    "population": 5347108
+  },
+  {
+    "state": "MN",
+    "year": 2012,
+    "population": 5379646
+  },
+  {
+    "state": "MN",
+    "year": 2013,
+    "population": 5420380
+  },
+  {
+    "state": "MO",
+    "year": 1990,
+    "population": 5128880
+  },
+  {
+    "state": "MO",
+    "year": 1991,
+    "population": 5170800
+  },
+  {
+    "state": "MO",
+    "year": 1992,
+    "population": 5217101
+  },
+  {
+    "state": "MO",
+    "year": 1993,
+    "population": 5271175
+  },
+  {
+    "state": "MO",
+    "year": 1994,
+    "population": 5324497
+  },
+  {
+    "state": "MO",
+    "year": 1995,
+    "population": 5378247
+  },
+  {
+    "state": "MO",
+    "year": 1996,
+    "population": 5431553
+  },
+  {
+    "state": "MO",
+    "year": 1997,
+    "population": 5481193
+  },
+  {
+    "state": "MO",
+    "year": 1998,
+    "population": 5521765
+  },
+  {
+    "state": "MO",
+    "year": 1999,
+    "population": 5561948
+  },
+  {
+    "state": "MO",
+    "year": 2000,
+    "population": 5607285
+  },
+  {
+    "state": "MO",
+    "year": 2001,
+    "population": 5641142
+  },
+  {
+    "state": "MO",
+    "year": 2002,
+    "population": 5674825
+  },
+  {
+    "state": "MO",
+    "year": 2003,
+    "population": 5709403
+  },
+  {
+    "state": "MO",
+    "year": 2004,
+    "population": 5747741
+  },
+  {
+    "state": "MO",
+    "year": 2005,
+    "population": 5790300
+  },
+  {
+    "state": "MO",
+    "year": 2006,
+    "population": 5842704
+  },
+  {
+    "state": "MO",
+    "year": 2007,
+    "population": 5887612
+  },
+  {
+    "state": "MO",
+    "year": 2008,
+    "population": 5923916
+  },
+  {
+    "state": "MO",
+    "year": 2009,
+    "population": 5961088
+  },
+  {
+    "state": "MO",
+    "year": 2010,
+    "population": 5996063
+  },
+  {
+    "state": "MO",
+    "year": 2011,
+    "population": 6010065
+  },
+  {
+    "state": "MO",
+    "year": 2012,
+    "population": 6024522
+  },
+  {
+    "state": "MO",
+    "year": 2013,
+    "population": 6044171
+  },
+  {
+    "state": "MS",
+    "year": 1990,
+    "population": 2578897
+  },
+  {
+    "state": "MS",
+    "year": 1991,
+    "population": 2598733
+  },
+  {
+    "state": "MS",
+    "year": 1992,
+    "population": 2623734
+  },
+  {
+    "state": "MS",
+    "year": 1993,
+    "population": 2655100
+  },
+  {
+    "state": "MS",
+    "year": 1994,
+    "population": 2688992
+  },
+  {
+    "state": "MS",
+    "year": 1995,
+    "population": 2722659
+  },
+  {
+    "state": "MS",
+    "year": 1996,
+    "population": 2748085
+  },
+  {
+    "state": "MS",
+    "year": 1997,
+    "population": 2777004
+  },
+  {
+    "state": "MS",
+    "year": 1998,
+    "population": 2804834
+  },
+  {
+    "state": "MS",
+    "year": 1999,
+    "population": 2828408
+  },
+  {
+    "state": "MS",
+    "year": 2000,
+    "population": 2848353
+  },
+  {
+    "state": "MS",
+    "year": 2001,
+    "population": 2852994
+  },
+  {
+    "state": "MS",
+    "year": 2002,
+    "population": 2858681
+  },
+  {
+    "state": "MS",
+    "year": 2003,
+    "population": 2868312
+  },
+  {
+    "state": "MS",
+    "year": 2004,
+    "population": 2889010
+  },
+  {
+    "state": "MS",
+    "year": 2005,
+    "population": 2905943
+  },
+  {
+    "state": "MS",
+    "year": 2006,
+    "population": 2904978
+  },
+  {
+    "state": "MS",
+    "year": 2007,
+    "population": 2928350
+  },
+  {
+    "state": "MS",
+    "year": 2008,
+    "population": 2947806
+  },
+  {
+    "state": "MS",
+    "year": 2009,
+    "population": 2958774
+  },
+  {
+    "state": "MS",
+    "year": 2010,
+    "population": 2970047
+  },
+  {
+    "state": "MS",
+    "year": 2011,
+    "population": 2977886
+  },
+  {
+    "state": "MS",
+    "year": 2012,
+    "population": 2986450
+  },
+  {
+    "state": "MS",
+    "year": 2013,
+    "population": 2991207
+  },
+  {
+    "state": "MT",
+    "year": 1990,
+    "population": 800204
+  },
+  {
+    "state": "MT",
+    "year": 1991,
+    "population": 809680
+  },
+  {
+    "state": "MT",
+    "year": 1992,
+    "population": 825770
+  },
+  {
+    "state": "MT",
+    "year": 1993,
+    "population": 844761
+  },
+  {
+    "state": "MT",
+    "year": 1994,
+    "population": 861306
+  },
+  {
+    "state": "MT",
+    "year": 1995,
+    "population": 876553
+  },
+  {
+    "state": "MT",
+    "year": 1996,
+    "population": 886254
+  },
+  {
+    "state": "MT",
+    "year": 1997,
+    "population": 889865
+  },
+  {
+    "state": "MT",
+    "year": 1998,
+    "population": 892431
+  },
+  {
+    "state": "MT",
+    "year": 1999,
+    "population": 897508
+  },
+  {
+    "state": "MT",
+    "year": 2000,
+    "population": 903773
+  },
+  {
+    "state": "MT",
+    "year": 2001,
+    "population": 906961
+  },
+  {
+    "state": "MT",
+    "year": 2002,
+    "population": 911667
+  },
+  {
+    "state": "MT",
+    "year": 2003,
+    "population": 919630
+  },
+  {
+    "state": "MT",
+    "year": 2004,
+    "population": 930009
+  },
+  {
+    "state": "MT",
+    "year": 2005,
+    "population": 940102
+  },
+  {
+    "state": "MT",
+    "year": 2006,
+    "population": 952692
+  },
+  {
+    "state": "MT",
+    "year": 2007,
+    "population": 964706
+  },
+  {
+    "state": "MT",
+    "year": 2008,
+    "population": 976415
+  },
+  {
+    "state": "MT",
+    "year": 2009,
+    "population": 983982
+  },
+  {
+    "state": "MT",
+    "year": 2010,
+    "population": 990527
+  },
+  {
+    "state": "MT",
+    "year": 2011,
+    "population": 997600
+  },
+  {
+    "state": "MT",
+    "year": 2012,
+    "population": 1005494
+  },
+  {
+    "state": "MT",
+    "year": 2013,
+    "population": 1015165
+  },
+  {
+    "state": "NC",
+    "year": 1990,
+    "population": 6664016
+  },
+  {
+    "state": "NC",
+    "year": 1991,
+    "population": 6784280
+  },
+  {
+    "state": "NC",
+    "year": 1992,
+    "population": 6897214
+  },
+  {
+    "state": "NC",
+    "year": 1993,
+    "population": 7042818
+  },
+  {
+    "state": "NC",
+    "year": 1994,
+    "population": 7187398
+  },
+  {
+    "state": "NC",
+    "year": 1995,
+    "population": 7344674
+  },
+  {
+    "state": "NC",
+    "year": 1996,
+    "population": 7500670
+  },
+  {
+    "state": "NC",
+    "year": 1997,
+    "population": 7656825
+  },
+  {
+    "state": "NC",
+    "year": 1998,
+    "population": 7809122
+  },
+  {
+    "state": "NC",
+    "year": 1999,
+    "population": 7949362
+  },
+  {
+    "state": "NC",
+    "year": 2000,
+    "population": 8081614
+  },
+  {
+    "state": "NC",
+    "year": 2001,
+    "population": 8210122
+  },
+  {
+    "state": "NC",
+    "year": 2002,
+    "population": 8326201
+  },
+  {
+    "state": "NC",
+    "year": 2003,
+    "population": 8422501
+  },
+  {
+    "state": "NC",
+    "year": 2004,
+    "population": 8553152
+  },
+  {
+    "state": "NC",
+    "year": 2005,
+    "population": 8705407
+  },
+  {
+    "state": "NC",
+    "year": 2006,
+    "population": 8917270
+  },
+  {
+    "state": "NC",
+    "year": 2007,
+    "population": 9118037
+  },
+  {
+    "state": "NC",
+    "year": 2008,
+    "population": 9309449
+  },
+  {
+    "state": "NC",
+    "year": 2009,
+    "population": 9449566
+  },
+  {
+    "state": "NC",
+    "year": 2010,
+    "population": 9559533
+  },
+  {
+    "state": "NC",
+    "year": 2011,
+    "population": 9651377
+  },
+  {
+    "state": "NC",
+    "year": 2012,
+    "population": 9748364
+  },
+  {
+    "state": "NC",
+    "year": 2013,
+    "population": 9848060
+  },
+  {
+    "state": "ND",
+    "year": 1990,
+    "population": 637685
+  },
+  {
+    "state": "ND",
+    "year": 1991,
+    "population": 635753
+  },
+  {
+    "state": "ND",
+    "year": 1992,
+    "population": 638223
+  },
+  {
+    "state": "ND",
+    "year": 1993,
+    "population": 641216
+  },
+  {
+    "state": "ND",
+    "year": 1994,
+    "population": 644806
+  },
+  {
+    "state": "ND",
+    "year": 1995,
+    "population": 647832
+  },
+  {
+    "state": "ND",
+    "year": 1996,
+    "population": 650382
+  },
+  {
+    "state": "ND",
+    "year": 1997,
+    "population": 649716
+  },
+  {
+    "state": "ND",
+    "year": 1998,
+    "population": 647532
+  },
+  {
+    "state": "ND",
+    "year": 1999,
+    "population": 644259
+  },
+  {
+    "state": "ND",
+    "year": 2000,
+    "population": 642023
+  },
+  {
+    "state": "ND",
+    "year": 2001,
+    "population": 639062
+  },
+  {
+    "state": "ND",
+    "year": 2002,
+    "population": 638168
+  },
+  {
+    "state": "ND",
+    "year": 2003,
+    "population": 638817
+  },
+  {
+    "state": "ND",
+    "year": 2004,
+    "population": 644705
+  },
+  {
+    "state": "ND",
+    "year": 2005,
+    "population": 646089
+  },
+  {
+    "state": "ND",
+    "year": 2006,
+    "population": 649422
+  },
+  {
+    "state": "ND",
+    "year": 2007,
+    "population": 652822
+  },
+  {
+    "state": "ND",
+    "year": 2008,
+    "population": 657569
+  },
+  {
+    "state": "ND",
+    "year": 2009,
+    "population": 664968
+  },
+  {
+    "state": "ND",
+    "year": 2010,
+    "population": 674344
+  },
+  {
+    "state": "ND",
+    "year": 2011,
+    "population": 684867
+  },
+  {
+    "state": "ND",
+    "year": 2012,
+    "population": 701345
+  },
+  {
+    "state": "ND",
+    "year": 2013,
+    "population": 723393
+  },
+  {
+    "state": "NE",
+    "year": 1990,
+    "population": 1581660
+  },
+  {
+    "state": "NE",
+    "year": 1991,
+    "population": 1595919
+  },
+  {
+    "state": "NE",
+    "year": 1992,
+    "population": 1611687
+  },
+  {
+    "state": "NE",
+    "year": 1993,
+    "population": 1625590
+  },
+  {
+    "state": "NE",
+    "year": 1994,
+    "population": 1639041
+  },
+  {
+    "state": "NE",
+    "year": 1995,
+    "population": 1656993
+  },
+  {
+    "state": "NE",
+    "year": 1996,
+    "population": 1673740
+  },
+  {
+    "state": "NE",
+    "year": 1997,
+    "population": 1686418
+  },
+  {
+    "state": "NE",
+    "year": 1998,
+    "population": 1695817
+  },
+  {
+    "state": "NE",
+    "year": 1999,
+    "population": 1704764
+  },
+  {
+    "state": "NE",
+    "year": 2000,
+    "population": 1713820
+  },
+  {
+    "state": "NE",
+    "year": 2001,
+    "population": 1719836
+  },
+  {
+    "state": "NE",
+    "year": 2002,
+    "population": 1728292
+  },
+  {
+    "state": "NE",
+    "year": 2003,
+    "population": 1738643
+  },
+  {
+    "state": "NE",
+    "year": 2004,
+    "population": 1749370
+  },
+  {
+    "state": "NE",
+    "year": 2005,
+    "population": 1761497
+  },
+  {
+    "state": "NE",
+    "year": 2006,
+    "population": 1772693
+  },
+  {
+    "state": "NE",
+    "year": 2007,
+    "population": 1783440
+  },
+  {
+    "state": "NE",
+    "year": 2008,
+    "population": 1796378
+  },
+  {
+    "state": "NE",
+    "year": 2009,
+    "population": 1812683
+  },
+  {
+    "state": "NE",
+    "year": 2010,
+    "population": 1829838
+  },
+  {
+    "state": "NE",
+    "year": 2011,
+    "population": 1841749
+  },
+  {
+    "state": "NE",
+    "year": 2012,
+    "population": 1855350
+  },
+  {
+    "state": "NE",
+    "year": 2013,
+    "population": 1868516
+  },
+  {
+    "state": "NH",
+    "year": 1990,
+    "population": 1112384
+  },
+  {
+    "state": "NH",
+    "year": 1991,
+    "population": 1109929
+  },
+  {
+    "state": "NH",
+    "year": 1992,
+    "population": 1117785
+  },
+  {
+    "state": "NH",
+    "year": 1993,
+    "population": 1129458
+  },
+  {
+    "state": "NH",
+    "year": 1994,
+    "population": 1142561
+  },
+  {
+    "state": "NH",
+    "year": 1995,
+    "population": 1157561
+  },
+  {
+    "state": "NH",
+    "year": 1996,
+    "population": 1174719
+  },
+  {
+    "state": "NH",
+    "year": 1997,
+    "population": 1189425
+  },
+  {
+    "state": "NH",
+    "year": 1998,
+    "population": 1205941
+  },
+  {
+    "state": "NH",
+    "year": 1999,
+    "population": 1222015
+  },
+  {
+    "state": "NH",
+    "year": 2000,
+    "population": 1239882
+  },
+  {
+    "state": "NH",
+    "year": 2001,
+    "population": 1255517
+  },
+  {
+    "state": "NH",
+    "year": 2002,
+    "population": 1269089
+  },
+  {
+    "state": "NH",
+    "year": 2003,
+    "population": 1279840
+  },
+  {
+    "state": "NH",
+    "year": 2004,
+    "population": 1290121
+  },
+  {
+    "state": "NH",
+    "year": 2005,
+    "population": 1298492
+  },
+  {
+    "state": "NH",
+    "year": 2006,
+    "population": 1308389
+  },
+  {
+    "state": "NH",
+    "year": 2007,
+    "population": 1312540
+  },
+  {
+    "state": "NH",
+    "year": 2008,
+    "population": 1315906
+  },
+  {
+    "state": "NH",
+    "year": 2009,
+    "population": 1316102
+  },
+  {
+    "state": "NH",
+    "year": 2010,
+    "population": 1316614
+  },
+  {
+    "state": "NH",
+    "year": 2011,
+    "population": 1318075
+  },
+  {
+    "state": "NH",
+    "year": 2012,
+    "population": 1321617
+  },
+  {
+    "state": "NH",
+    "year": 2013,
+    "population": 1323459
+  },
+  {
+    "state": "NJ",
+    "year": 1990,
+    "population": 7762963
+  },
+  {
+    "state": "NJ",
+    "year": 1991,
+    "population": 7814676
+  },
+  {
+    "state": "NJ",
+    "year": 1992,
+    "population": 7880508
+  },
+  {
+    "state": "NJ",
+    "year": 1993,
+    "population": 7948915
+  },
+  {
+    "state": "NJ",
+    "year": 1994,
+    "population": 8014306
+  },
+  {
+    "state": "NJ",
+    "year": 1995,
+    "population": 8083242
+  },
+  {
+    "state": "NJ",
+    "year": 1996,
+    "population": 8149596
+  },
+  {
+    "state": "NJ",
+    "year": 1997,
+    "population": 8218808
+  },
+  {
+    "state": "NJ",
+    "year": 1998,
+    "population": 8287418
+  },
+  {
+    "state": "NJ",
+    "year": 1999,
+    "population": 8359592
+  },
+  {
+    "state": "NJ",
+    "year": 2000,
+    "population": 8430621
+  },
+  {
+    "state": "NJ",
+    "year": 2001,
+    "population": 8492671
+  },
+  {
+    "state": "NJ",
+    "year": 2002,
+    "population": 8552643
+  },
+  {
+    "state": "NJ",
+    "year": 2003,
+    "population": 8601402
+  },
+  {
+    "state": "NJ",
+    "year": 2004,
+    "population": 8634561
+  },
+  {
+    "state": "NJ",
+    "year": 2005,
+    "population": 8651974
+  },
+  {
+    "state": "NJ",
+    "year": 2006,
+    "population": 8661679
+  },
+  {
+    "state": "NJ",
+    "year": 2007,
+    "population": 8677885
+  },
+  {
+    "state": "NJ",
+    "year": 2008,
+    "population": 8711090
+  },
+  {
+    "state": "NJ",
+    "year": 2009,
+    "population": 8755602
+  },
+  {
+    "state": "NJ",
+    "year": 2010,
+    "population": 8802707
+  },
+  {
+    "state": "NJ",
+    "year": 2011,
+    "population": 8836639
+  },
+  {
+    "state": "NJ",
+    "year": 2012,
+    "population": 8867749
+  },
+  {
+    "state": "NJ",
+    "year": 2013,
+    "population": 8899339
+  },
+  {
+    "state": "NM",
+    "year": 1990,
+    "population": 1521574
+  },
+  {
+    "state": "NM",
+    "year": 1991,
+    "population": 1555305
+  },
+  {
+    "state": "NM",
+    "year": 1992,
+    "population": 1595442
+  },
+  {
+    "state": "NM",
+    "year": 1993,
+    "population": 1636453
+  },
+  {
+    "state": "NM",
+    "year": 1994,
+    "population": 1682398
+  },
+  {
+    "state": "NM",
+    "year": 1995,
+    "population": 1720394
+  },
+  {
+    "state": "NM",
+    "year": 1996,
+    "population": 1752326
+  },
+  {
+    "state": "NM",
+    "year": 1997,
+    "population": 1774839
+  },
+  {
+    "state": "NM",
+    "year": 1998,
+    "population": 1793484
+  },
+  {
+    "state": "NM",
+    "year": 1999,
+    "population": 1808082
+  },
+  {
+    "state": "NM",
+    "year": 2000,
+    "population": 1821204
+  },
+  {
+    "state": "NM",
+    "year": 2001,
+    "population": 1831690
+  },
+  {
+    "state": "NM",
+    "year": 2002,
+    "population": 1855309
+  },
+  {
+    "state": "NM",
+    "year": 2003,
+    "population": 1877574
+  },
+  {
+    "state": "NM",
+    "year": 2004,
+    "population": 1903808
+  },
+  {
+    "state": "NM",
+    "year": 2005,
+    "population": 1932274
+  },
+  {
+    "state": "NM",
+    "year": 2006,
+    "population": 1962137
+  },
+  {
+    "state": "NM",
+    "year": 2007,
+    "population": 1990070
+  },
+  {
+    "state": "NM",
+    "year": 2008,
+    "population": 2010662
+  },
+  {
+    "state": "NM",
+    "year": 2009,
+    "population": 2036802
+  },
+  {
+    "state": "NM",
+    "year": 2010,
+    "population": 2064982
+  },
+  {
+    "state": "NM",
+    "year": 2011,
+    "population": 2077919
+  },
+  {
+    "state": "NM",
+    "year": 2012,
+    "population": 2083540
+  },
+  {
+    "state": "NM",
+    "year": 2013,
+    "population": 2085287
+  },
+  {
+    "state": "NV",
+    "year": 1990,
+    "population": 1220695
+  },
+  {
+    "state": "NV",
+    "year": 1991,
+    "population": 1296172
+  },
+  {
+    "state": "NV",
+    "year": 1992,
+    "population": 1351367
+  },
+  {
+    "state": "NV",
+    "year": 1993,
+    "population": 1411215
+  },
+  {
+    "state": "NV",
+    "year": 1994,
+    "population": 1499298
+  },
+  {
+    "state": "NV",
+    "year": 1995,
+    "population": 1581578
+  },
+  {
+    "state": "NV",
+    "year": 1996,
+    "population": 1666320
+  },
+  {
+    "state": "NV",
+    "year": 1997,
+    "population": 1764104
+  },
+  {
+    "state": "NV",
+    "year": 1998,
+    "population": 1853192
+  },
+  {
+    "state": "NV",
+    "year": 1999,
+    "population": 1934718
+  },
+  {
+    "state": "NV",
+    "year": 2000,
+    "population": 2018741
+  },
+  {
+    "state": "NV",
+    "year": 2001,
+    "population": 2098399
+  },
+  {
+    "state": "NV",
+    "year": 2002,
+    "population": 2173791
+  },
+  {
+    "state": "NV",
+    "year": 2003,
+    "population": 2248850
+  },
+  {
+    "state": "NV",
+    "year": 2004,
+    "population": 2346222
+  },
+  {
+    "state": "NV",
+    "year": 2005,
+    "population": 2432143
+  },
+  {
+    "state": "NV",
+    "year": 2006,
+    "population": 2522658
+  },
+  {
+    "state": "NV",
+    "year": 2007,
+    "population": 2601072
+  },
+  {
+    "state": "NV",
+    "year": 2008,
+    "population": 2653630
+  },
+  {
+    "state": "NV",
+    "year": 2009,
+    "population": 2684665
+  },
+  {
+    "state": "NV",
+    "year": 2010,
+    "population": 2703230
+  },
+  {
+    "state": "NV",
+    "year": 2011,
+    "population": 2717951
+  },
+  {
+    "state": "NV",
+    "year": 2012,
+    "population": 2754354
+  },
+  {
+    "state": "NV",
+    "year": 2013,
+    "population": 2790136
+  },
+  {
+    "state": "NY",
+    "year": 1990,
+    "population": 18020784
+  },
+  {
+    "state": "NY",
+    "year": 1991,
+    "population": 18122510
+  },
+  {
+    "state": "NY",
+    "year": 1992,
+    "population": 18246653
+  },
+  {
+    "state": "NY",
+    "year": 1993,
+    "population": 18374954
+  },
+  {
+    "state": "NY",
+    "year": 1994,
+    "population": 18459470
+  },
+  {
+    "state": "NY",
+    "year": 1995,
+    "population": 18524104
+  },
+  {
+    "state": "NY",
+    "year": 1996,
+    "population": 18588460
+  },
+  {
+    "state": "NY",
+    "year": 1997,
+    "population": 18656546
+  },
+  {
+    "state": "NY",
+    "year": 1998,
+    "population": 18755906
+  },
+  {
+    "state": "NY",
+    "year": 1999,
+    "population": 18882725
+  },
+  {
+    "state": "NY",
+    "year": 2000,
+    "population": 19001780
+  },
+  {
+    "state": "NY",
+    "year": 2001,
+    "population": 19082838
+  },
+  {
+    "state": "NY",
+    "year": 2002,
+    "population": 19137800
+  },
+  {
+    "state": "NY",
+    "year": 2003,
+    "population": 19175939
+  },
+  {
+    "state": "NY",
+    "year": 2004,
+    "population": 19171567
+  },
+  {
+    "state": "NY",
+    "year": 2005,
+    "population": 19132610
+  },
+  {
+    "state": "NY",
+    "year": 2006,
+    "population": 19104631
+  },
+  {
+    "state": "NY",
+    "year": 2007,
+    "population": 19132335
+  },
+  {
+    "state": "NY",
+    "year": 2008,
+    "population": 19212436
+  },
+  {
+    "state": "NY",
+    "year": 2009,
+    "population": 19307066
+  },
+  {
+    "state": "NY",
+    "year": 2010,
+    "population": 19398228
+  },
+  {
+    "state": "NY",
+    "year": 2011,
+    "population": 19502728
+  },
+  {
+    "state": "NY",
+    "year": 2012,
+    "population": 19576125
+  },
+  {
+    "state": "NY",
+    "year": 2013,
+    "population": 19651127
+  },
+  {
+    "state": "OH",
+    "year": 1990,
+    "population": 10864162
+  },
+  {
+    "state": "OH",
+    "year": 1991,
+    "population": 10945762
+  },
+  {
+    "state": "OH",
+    "year": 1992,
+    "population": 11029431
+  },
+  {
+    "state": "OH",
+    "year": 1993,
+    "population": 11101140
+  },
+  {
+    "state": "OH",
+    "year": 1994,
+    "population": 11152455
+  },
+  {
+    "state": "OH",
+    "year": 1995,
+    "population": 11202751
+  },
+  {
+    "state": "OH",
+    "year": 1996,
+    "population": 11242827
+  },
+  {
+    "state": "OH",
+    "year": 1997,
+    "population": 11277357
+  },
+  {
+    "state": "OH",
+    "year": 1998,
+    "population": 11311536
+  },
+  {
+    "state": "OH",
+    "year": 1999,
+    "population": 11335454
+  },
+  {
+    "state": "OH",
+    "year": 2000,
+    "population": 11363543
+  },
+  {
+    "state": "OH",
+    "year": 2001,
+    "population": 11387404
+  },
+  {
+    "state": "OH",
+    "year": 2002,
+    "population": 11407889
+  },
+  {
+    "state": "OH",
+    "year": 2003,
+    "population": 11434788
+  },
+  {
+    "state": "OH",
+    "year": 2004,
+    "population": 11452251
+  },
+  {
+    "state": "OH",
+    "year": 2005,
+    "population": 11463320
+  },
+  {
+    "state": "OH",
+    "year": 2006,
+    "population": 11481213
+  },
+  {
+    "state": "OH",
+    "year": 2007,
+    "population": 11500468
+  },
+  {
+    "state": "OH",
+    "year": 2008,
+    "population": 11515391
+  },
+  {
+    "state": "OH",
+    "year": 2009,
+    "population": 11528896
+  },
+  {
+    "state": "OH",
+    "year": 2010,
+    "population": 11545435
+  },
+  {
+    "state": "OH",
+    "year": 2011,
+    "population": 11549772
+  },
+  {
+    "state": "OH",
+    "year": 2012,
+    "population": 11553031
+  },
+  {
+    "state": "OH",
+    "year": 2013,
+    "population": 11570808
+  },
+  {
+    "state": "OK",
+    "year": 1990,
+    "population": 3148825
+  },
+  {
+    "state": "OK",
+    "year": 1991,
+    "population": 3175440
+  },
+  {
+    "state": "OK",
+    "year": 1992,
+    "population": 3220517
+  },
+  {
+    "state": "OK",
+    "year": 1993,
+    "population": 3252285
+  },
+  {
+    "state": "OK",
+    "year": 1994,
+    "population": 3280940
+  },
+  {
+    "state": "OK",
+    "year": 1995,
+    "population": 3308208
+  },
+  {
+    "state": "OK",
+    "year": 1996,
+    "population": 3340129
+  },
+  {
+    "state": "OK",
+    "year": 1997,
+    "population": 3372918
+  },
+  {
+    "state": "OK",
+    "year": 1998,
+    "population": 3405194
+  },
+  {
+    "state": "OK",
+    "year": 1999,
+    "population": 3437148
+  },
+  {
+    "state": "OK",
+    "year": 2000,
+    "population": 3454365
+  },
+  {
+    "state": "OK",
+    "year": 2001,
+    "population": 3467100
+  },
+  {
+    "state": "OK",
+    "year": 2002,
+    "population": 3489080
+  },
+  {
+    "state": "OK",
+    "year": 2003,
+    "population": 3504892
+  },
+  {
+    "state": "OK",
+    "year": 2004,
+    "population": 3525233
+  },
+  {
+    "state": "OK",
+    "year": 2005,
+    "population": 3548597
+  },
+  {
+    "state": "OK",
+    "year": 2006,
+    "population": 3594090
+  },
+  {
+    "state": "OK",
+    "year": 2007,
+    "population": 3634349
+  },
+  {
+    "state": "OK",
+    "year": 2008,
+    "population": 3668976
+  },
+  {
+    "state": "OK",
+    "year": 2009,
+    "population": 3717572
+  },
+  {
+    "state": "OK",
+    "year": 2010,
+    "population": 3759263
+  },
+  {
+    "state": "OK",
+    "year": 2011,
+    "population": 3785534
+  },
+  {
+    "state": "OK",
+    "year": 2012,
+    "population": 3815780
+  },
+  {
+    "state": "OK",
+    "year": 2013,
+    "population": 3850568
+  },
+  {
+    "state": "OR",
+    "year": 1990,
+    "population": 2860375
+  },
+  {
+    "state": "OR",
+    "year": 1991,
+    "population": 2928507
+  },
+  {
+    "state": "OR",
+    "year": 1992,
+    "population": 2991755
+  },
+  {
+    "state": "OR",
+    "year": 1993,
+    "population": 3060367
+  },
+  {
+    "state": "OR",
+    "year": 1994,
+    "population": 3121264
+  },
+  {
+    "state": "OR",
+    "year": 1995,
+    "population": 3184369
+  },
+  {
+    "state": "OR",
+    "year": 1996,
+    "population": 3247111
+  },
+  {
+    "state": "OR",
+    "year": 1997,
+    "population": 3304310
+  },
+  {
+    "state": "OR",
+    "year": 1998,
+    "population": 3352449
+  },
+  {
+    "state": "OR",
+    "year": 1999,
+    "population": 3393941
+  },
+  {
+    "state": "OR",
+    "year": 2000,
+    "population": 3429708
+  },
+  {
+    "state": "OR",
+    "year": 2001,
+    "population": 3467937
+  },
+  {
+    "state": "OR",
+    "year": 2002,
+    "population": 3513424
+  },
+  {
+    "state": "OR",
+    "year": 2003,
+    "population": 3547376
+  },
+  {
+    "state": "OR",
+    "year": 2004,
+    "population": 3569463
+  },
+  {
+    "state": "OR",
+    "year": 2005,
+    "population": 3613202
+  },
+  {
+    "state": "OR",
+    "year": 2006,
+    "population": 3670883
+  },
+  {
+    "state": "OR",
+    "year": 2007,
+    "population": 3722417
+  },
+  {
+    "state": "OR",
+    "year": 2008,
+    "population": 3768748
+  },
+  {
+    "state": "OR",
+    "year": 2009,
+    "population": 3808600
+  },
+  {
+    "state": "OR",
+    "year": 2010,
+    "population": 3837208
+  },
+  {
+    "state": "OR",
+    "year": 2011,
+    "population": 3867937
+  },
+  {
+    "state": "OR",
+    "year": 2012,
+    "population": 3899801
+  },
+  {
+    "state": "OR",
+    "year": 2013,
+    "population": 3930065
+  },
+  {
+    "state": "PA",
+    "year": 1990,
+    "population": 11903299
+  },
+  {
+    "state": "PA",
+    "year": 1991,
+    "population": 11982164
+  },
+  {
+    "state": "PA",
+    "year": 1992,
+    "population": 12049450
+  },
+  {
+    "state": "PA",
+    "year": 1993,
+    "population": 12119724
+  },
+  {
+    "state": "PA",
+    "year": 1994,
+    "population": 12166050
+  },
+  {
+    "state": "PA",
+    "year": 1995,
+    "population": 12198403
+  },
+  {
+    "state": "PA",
+    "year": 1996,
+    "population": 12220464
+  },
+  {
+    "state": "PA",
+    "year": 1997,
+    "population": 12227814
+  },
+  {
+    "state": "PA",
+    "year": 1998,
+    "population": 12245672
+  },
+  {
+    "state": "PA",
+    "year": 1999,
+    "population": 12263805
+  },
+  {
+    "state": "PA",
+    "year": 2000,
+    "population": 12284173
+  },
+  {
+    "state": "PA",
+    "year": 2001,
+    "population": 12298970
+  },
+  {
+    "state": "PA",
+    "year": 2002,
+    "population": 12331031
+  },
+  {
+    "state": "PA",
+    "year": 2003,
+    "population": 12374658
+  },
+  {
+    "state": "PA",
+    "year": 2004,
+    "population": 12410722
+  },
+  {
+    "state": "PA",
+    "year": 2005,
+    "population": 12449990
+  },
+  {
+    "state": "PA",
+    "year": 2006,
+    "population": 12510809
+  },
+  {
+    "state": "PA",
+    "year": 2007,
+    "population": 12563937
+  },
+  {
+    "state": "PA",
+    "year": 2008,
+    "population": 12612285
+  },
+  {
+    "state": "PA",
+    "year": 2009,
+    "population": 12666858
+  },
+  {
+    "state": "PA",
+    "year": 2010,
+    "population": 12710472
+  },
+  {
+    "state": "PA",
+    "year": 2011,
+    "population": 12741310
+  },
+  {
+    "state": "PA",
+    "year": 2012,
+    "population": 12764475
+  },
+  {
+    "state": "PA",
+    "year": 2013,
+    "population": 12773801
+  },
+  {
+    "state": "PR",
+    "year": 2000,
+    "population": 3810605
+  },
+  {
+    "state": "PR",
+    "year": 2001,
+    "population": 3818774
+  },
+  {
+    "state": "PR",
+    "year": 2002,
+    "population": 3823701
+  },
+  {
+    "state": "PR",
+    "year": 2003,
+    "population": 3826095
+  },
+  {
+    "state": "PR",
+    "year": 2004,
+    "population": 3826878
+  },
+  {
+    "state": "PR",
+    "year": 2005,
+    "population": 3821362
+  },
+  {
+    "state": "PR",
+    "year": 2006,
+    "population": 3805214
+  },
+  {
+    "state": "PR",
+    "year": 2007,
+    "population": 3782995
+  },
+  {
+    "state": "PR",
+    "year": 2008,
+    "population": 3760866
+  },
+  {
+    "state": "PR",
+    "year": 2009,
+    "population": 3740410
+  },
+  {
+    "state": "PR",
+    "year": 2010,
+    "population": 3721208
+  },
+  {
+    "state": "PR",
+    "year": 2011,
+    "population": 3686580
+  },
+  {
+    "state": "PR",
+    "year": 2012,
+    "population": 3651545
+  },
+  {
+    "state": "PR",
+    "year": 2013,
+    "population": 3615086
+  },
+  {
+    "state": "RI",
+    "year": 1990,
+    "population": 1005995
+  },
+  {
+    "state": "RI",
+    "year": 1991,
+    "population": 1010649
+  },
+  {
+    "state": "RI",
+    "year": 1992,
+    "population": 1012581
+  },
+  {
+    "state": "RI",
+    "year": 1993,
+    "population": 1015113
+  },
+  {
+    "state": "RI",
+    "year": 1994,
+    "population": 1015960
+  },
+  {
+    "state": "RI",
+    "year": 1995,
+    "population": 1017002
+  },
+  {
+    "state": "RI",
+    "year": 1996,
+    "population": 1020893
+  },
+  {
+    "state": "RI",
+    "year": 1997,
+    "population": 1025353
+  },
+  {
+    "state": "RI",
+    "year": 1998,
+    "population": 1031155
+  },
+  {
+    "state": "RI",
+    "year": 1999,
+    "population": 1040402
+  },
+  {
+    "state": "RI",
+    "year": 2000,
+    "population": 1050268
+  },
+  {
+    "state": "RI",
+    "year": 2001,
+    "population": 1057142
+  },
+  {
+    "state": "RI",
+    "year": 2002,
+    "population": 1065995
+  },
+  {
+    "state": "RI",
+    "year": 2003,
+    "population": 1071342
+  },
+  {
+    "state": "RI",
+    "year": 2004,
+    "population": 1074579
+  },
+  {
+    "state": "RI",
+    "year": 2005,
+    "population": 1067916
+  },
+  {
+    "state": "RI",
+    "year": 2006,
+    "population": 1063096
+  },
+  {
+    "state": "RI",
+    "year": 2007,
+    "population": 1057315
+  },
+  {
+    "state": "RI",
+    "year": 2008,
+    "population": 1055003
+  },
+  {
+    "state": "RI",
+    "year": 2009,
+    "population": 1053646
+  },
+  {
+    "state": "RI",
+    "year": 2010,
+    "population": 1052669
+  },
+  {
+    "state": "RI",
+    "year": 2011,
+    "population": 1050350
+  },
+  {
+    "state": "RI",
+    "year": 2012,
+    "population": 1050304
+  },
+  {
+    "state": "RI",
+    "year": 2013,
+    "population": 1051511
+  },
+  {
+    "state": "SC",
+    "year": 1990,
+    "population": 3501155
+  },
+  {
+    "state": "SC",
+    "year": 1991,
+    "population": 3570404
+  },
+  {
+    "state": "SC",
+    "year": 1992,
+    "population": 3620464
+  },
+  {
+    "state": "SC",
+    "year": 1993,
+    "population": 3663314
+  },
+  {
+    "state": "SC",
+    "year": 1994,
+    "population": 3705397
+  },
+  {
+    "state": "SC",
+    "year": 1995,
+    "population": 3748582
+  },
+  {
+    "state": "SC",
+    "year": 1996,
+    "population": 3796200
+  },
+  {
+    "state": "SC",
+    "year": 1997,
+    "population": 3859696
+  },
+  {
+    "state": "SC",
+    "year": 1998,
+    "population": 3919235
+  },
+  {
+    "state": "SC",
+    "year": 1999,
+    "population": 3974682
+  },
+  {
+    "state": "SC",
+    "year": 2000,
+    "population": 4024223
+  },
+  {
+    "state": "SC",
+    "year": 2001,
+    "population": 4064995
+  },
+  {
+    "state": "SC",
+    "year": 2002,
+    "population": 4107795
+  },
+  {
+    "state": "SC",
+    "year": 2003,
+    "population": 4150297
+  },
+  {
+    "state": "SC",
+    "year": 2004,
+    "population": 4210921
+  },
+  {
+    "state": "SC",
+    "year": 2005,
+    "population": 4270150
+  },
+  {
+    "state": "SC",
+    "year": 2006,
+    "population": 4357847
+  },
+  {
+    "state": "SC",
+    "year": 2007,
+    "population": 4444110
+  },
+  {
+    "state": "SC",
+    "year": 2008,
+    "population": 4528996
+  },
+  {
+    "state": "SC",
+    "year": 2009,
+    "population": 4589872
+  },
+  {
+    "state": "SC",
+    "year": 2010,
+    "population": 4636361
+  },
+  {
+    "state": "SC",
+    "year": 2011,
+    "population": 4673509
+  },
+  {
+    "state": "SC",
+    "year": 2012,
+    "population": 4723417
+  },
+  {
+    "state": "SC",
+    "year": 2013,
+    "population": 4774839
+  },
+  {
+    "state": "SD",
+    "year": 1990,
+    "population": 697101
+  },
+  {
+    "state": "SD",
+    "year": 1991,
+    "population": 703669
+  },
+  {
+    "state": "SD",
+    "year": 1992,
+    "population": 712801
+  },
+  {
+    "state": "SD",
+    "year": 1993,
+    "population": 722160
+  },
+  {
+    "state": "SD",
+    "year": 1994,
+    "population": 730790
+  },
+  {
+    "state": "SD",
+    "year": 1995,
+    "population": 737926
+  },
+  {
+    "state": "SD",
+    "year": 1996,
+    "population": 742214
+  },
+  {
+    "state": "SD",
+    "year": 1997,
+    "population": 744223
+  },
+  {
+    "state": "SD",
+    "year": 1998,
+    "population": 746059
+  },
+  {
+    "state": "SD",
+    "year": 1999,
+    "population": 750413
+  },
+  {
+    "state": "SD",
+    "year": 2000,
+    "population": 755844
+  },
+  {
+    "state": "SD",
+    "year": 2001,
+    "population": 757972
+  },
+  {
+    "state": "SD",
+    "year": 2002,
+    "population": 760020
+  },
+  {
+    "state": "SD",
+    "year": 2003,
+    "population": 763729
+  },
+  {
+    "state": "SD",
+    "year": 2004,
+    "population": 770396
+  },
+  {
+    "state": "SD",
+    "year": 2005,
+    "population": 775493
+  },
+  {
+    "state": "SD",
+    "year": 2006,
+    "population": 783033
+  },
+  {
+    "state": "SD",
+    "year": 2007,
+    "population": 791623
+  },
+  {
+    "state": "SD",
+    "year": 2008,
+    "population": 799124
+  },
+  {
+    "state": "SD",
+    "year": 2009,
+    "population": 807067
+  },
+  {
+    "state": "SD",
+    "year": 2010,
+    "population": 816211
+  },
+  {
+    "state": "SD",
+    "year": 2011,
+    "population": 823772
+  },
+  {
+    "state": "SD",
+    "year": 2012,
+    "population": 834047
+  },
+  {
+    "state": "SD",
+    "year": 2013,
+    "population": 844877
+  },
+  {
+    "state": "TN",
+    "year": 1990,
+    "population": 4894492
+  },
+  {
+    "state": "TN",
+    "year": 1991,
+    "population": 4966587
+  },
+  {
+    "state": "TN",
+    "year": 1992,
+    "population": 5049742
+  },
+  {
+    "state": "TN",
+    "year": 1993,
+    "population": 5137584
+  },
+  {
+    "state": "TN",
+    "year": 1994,
+    "population": 5231438
+  },
+  {
+    "state": "TN",
+    "year": 1995,
+    "population": 5326936
+  },
+  {
+    "state": "TN",
+    "year": 1996,
+    "population": 5416643
+  },
+  {
+    "state": "TN",
+    "year": 1997,
+    "population": 5499233
+  },
+  {
+    "state": "TN",
+    "year": 1998,
+    "population": 5570045
+  },
+  {
+    "state": "TN",
+    "year": 1999,
+    "population": 5638706
+  },
+  {
+    "state": "TN",
+    "year": 2000,
+    "population": 5703719
+  },
+  {
+    "state": "TN",
+    "year": 2001,
+    "population": 5750789
+  },
+  {
+    "state": "TN",
+    "year": 2002,
+    "population": 5795918
+  },
+  {
+    "state": "TN",
+    "year": 2003,
+    "population": 5847812
+  },
+  {
+    "state": "TN",
+    "year": 2004,
+    "population": 5910809
+  },
+  {
+    "state": "TN",
+    "year": 2005,
+    "population": 5991057
+  },
+  {
+    "state": "TN",
+    "year": 2006,
+    "population": 6088766
+  },
+  {
+    "state": "TN",
+    "year": 2007,
+    "population": 6175727
+  },
+  {
+    "state": "TN",
+    "year": 2008,
+    "population": 6247411
+  },
+  {
+    "state": "TN",
+    "year": 2009,
+    "population": 6306019
+  },
+  {
+    "state": "TN",
+    "year": 2010,
+    "population": 6356683
+  },
+  {
+    "state": "TN",
+    "year": 2011,
+    "population": 6398361
+  },
+  {
+    "state": "TN",
+    "year": 2012,
+    "population": 6454914
+  },
+  {
+    "state": "TN",
+    "year": 2013,
+    "population": 6495978
+  },
+  {
+    "state": "TX",
+    "year": 1990,
+    "population": 17056755
+  },
+  {
+    "state": "TX",
+    "year": 1991,
+    "population": 17398005
+  },
+  {
+    "state": "TX",
+    "year": 1992,
+    "population": 17759738
+  },
+  {
+    "state": "TX",
+    "year": 1993,
+    "population": 18161612
+  },
+  {
+    "state": "TX",
+    "year": 1994,
+    "population": 18564062
+  },
+  {
+    "state": "TX",
+    "year": 1995,
+    "population": 18958751
+  },
+  {
+    "state": "TX",
+    "year": 1996,
+    "population": 19340342
+  },
+  {
+    "state": "TX",
+    "year": 1997,
+    "population": 19740317
+  },
+  {
+    "state": "TX",
+    "year": 1998,
+    "population": 20157531
+  },
+  {
+    "state": "TX",
+    "year": 1999,
+    "population": 20558220
+  },
+  {
+    "state": "TX",
+    "year": 2000,
+    "population": 20944499
+  },
+  {
+    "state": "TX",
+    "year": 2001,
+    "population": 21319622
+  },
+  {
+    "state": "TX",
+    "year": 2002,
+    "population": 21690325
+  },
+  {
+    "state": "TX",
+    "year": 2003,
+    "population": 22030931
+  },
+  {
+    "state": "TX",
+    "year": 2004,
+    "population": 22394023
+  },
+  {
+    "state": "TX",
+    "year": 2005,
+    "population": 22778123
+  },
+  {
+    "state": "TX",
+    "year": 2006,
+    "population": 23359580
+  },
+  {
+    "state": "TX",
+    "year": 2007,
+    "population": 23831983
+  },
+  {
+    "state": "TX",
+    "year": 2008,
+    "population": 24309039
+  },
+  {
+    "state": "TX",
+    "year": 2009,
+    "population": 24801761
+  },
+  {
+    "state": "TX",
+    "year": 2010,
+    "population": 25245178
+  },
+  {
+    "state": "TX",
+    "year": 2011,
+    "population": 25640909
+  },
+  {
+    "state": "TX",
+    "year": 2012,
+    "population": 26060796
+  },
+  {
+    "state": "TX",
+    "year": 2013,
+    "population": 26448193
+  },
+  {
+    "state": "UT",
+    "year": 1990,
+    "population": 1731223
+  },
+  {
+    "state": "UT",
+    "year": 1991,
+    "population": 1779780
+  },
+  {
+    "state": "UT",
+    "year": 1992,
+    "population": 1836799
+  },
+  {
+    "state": "UT",
+    "year": 1993,
+    "population": 1898404
+  },
+  {
+    "state": "UT",
+    "year": 1994,
+    "population": 1960446
+  },
+  {
+    "state": "UT",
+    "year": 1995,
+    "population": 2014179
+  },
+  {
+    "state": "UT",
+    "year": 1996,
+    "population": 2067976
+  },
+  {
+    "state": "UT",
+    "year": 1997,
+    "population": 2119784
+  },
+  {
+    "state": "UT",
+    "year": 1998,
+    "population": 2165961
+  },
+  {
+    "state": "UT",
+    "year": 1999,
+    "population": 2203482
+  },
+  {
+    "state": "UT",
+    "year": 2000,
+    "population": 2244502
+  },
+  {
+    "state": "UT",
+    "year": 2001,
+    "population": 2283715
+  },
+  {
+    "state": "UT",
+    "year": 2002,
+    "population": 2324815
+  },
+  {
+    "state": "UT",
+    "year": 2003,
+    "population": 2360137
+  },
+  {
+    "state": "UT",
+    "year": 2004,
+    "population": 2401580
+  },
+  {
+    "state": "UT",
+    "year": 2005,
+    "population": 2457719
+  },
+  {
+    "state": "UT",
+    "year": 2006,
+    "population": 2525507
+  },
+  {
+    "state": "UT",
+    "year": 2007,
+    "population": 2597746
+  },
+  {
+    "state": "UT",
+    "year": 2008,
+    "population": 2663029
+  },
+  {
+    "state": "UT",
+    "year": 2009,
+    "population": 2723421
+  },
+  {
+    "state": "UT",
+    "year": 2010,
+    "population": 2774424
+  },
+  {
+    "state": "UT",
+    "year": 2011,
+    "population": 2814784
+  },
+  {
+    "state": "UT",
+    "year": 2012,
+    "population": 2854871
+  },
+  {
+    "state": "UT",
+    "year": 2013,
+    "population": 2900872
+  },
+  {
+    "state": "VA",
+    "year": 1990,
+    "population": 6216884
+  },
+  {
+    "state": "VA",
+    "year": 1991,
+    "population": 6301217
+  },
+  {
+    "state": "VA",
+    "year": 1992,
+    "population": 6414307
+  },
+  {
+    "state": "VA",
+    "year": 1993,
+    "population": 6509630
+  },
+  {
+    "state": "VA",
+    "year": 1994,
+    "population": 6593139
+  },
+  {
+    "state": "VA",
+    "year": 1995,
+    "population": 6670693
+  },
+  {
+    "state": "VA",
+    "year": 1996,
+    "population": 6750884
+  },
+  {
+    "state": "VA",
+    "year": 1997,
+    "population": 6829183
+  },
+  {
+    "state": "VA",
+    "year": 1998,
+    "population": 6900918
+  },
+  {
+    "state": "VA",
+    "year": 1999,
+    "population": 7000174
+  },
+  {
+    "state": "VA",
+    "year": 2000,
+    "population": 7105817
+  },
+  {
+    "state": "VA",
+    "year": 2001,
+    "population": 7198362
+  },
+  {
+    "state": "VA",
+    "year": 2002,
+    "population": 7286873
+  },
+  {
+    "state": "VA",
+    "year": 2003,
+    "population": 7366977
+  },
+  {
+    "state": "VA",
+    "year": 2004,
+    "population": 7475575
+  },
+  {
+    "state": "VA",
+    "year": 2005,
+    "population": 7577105
+  },
+  {
+    "state": "VA",
+    "year": 2006,
+    "population": 7673725
+  },
+  {
+    "state": "VA",
+    "year": 2007,
+    "population": 7751000
+  },
+  {
+    "state": "VA",
+    "year": 2008,
+    "population": 7833496
+  },
+  {
+    "state": "VA",
+    "year": 2009,
+    "population": 7925937
+  },
+  {
+    "state": "VA",
+    "year": 2010,
+    "population": 8024417
+  },
+  {
+    "state": "VA",
+    "year": 2011,
+    "population": 8105850
+  },
+  {
+    "state": "VA",
+    "year": 2012,
+    "population": 8186628
+  },
+  {
+    "state": "VA",
+    "year": 2013,
+    "population": 8260405
+  },
+  {
+    "state": "VT",
+    "year": 1990,
+    "population": 564798
+  },
+  {
+    "state": "VT",
+    "year": 1991,
+    "population": 568606
+  },
+  {
+    "state": "VT",
+    "year": 1992,
+    "population": 572751
+  },
+  {
+    "state": "VT",
+    "year": 1993,
+    "population": 577748
+  },
+  {
+    "state": "VT",
+    "year": 1994,
+    "population": 583836
+  },
+  {
+    "state": "VT",
+    "year": 1995,
+    "population": 589003
+  },
+  {
+    "state": "VT",
+    "year": 1996,
+    "population": 593701
+  },
+  {
+    "state": "VT",
+    "year": 1997,
+    "population": 597239
+  },
+  {
+    "state": "VT",
+    "year": 1998,
+    "population": 600416
+  },
+  {
+    "state": "VT",
+    "year": 1999,
+    "population": 604683
+  },
+  {
+    "state": "VT",
+    "year": 2000,
+    "population": 609618
+  },
+  {
+    "state": "VT",
+    "year": 2001,
+    "population": 612223
+  },
+  {
+    "state": "VT",
+    "year": 2002,
+    "population": 615442
+  },
+  {
+    "state": "VT",
+    "year": 2003,
+    "population": 617858
+  },
+  {
+    "state": "VT",
+    "year": 2004,
+    "population": 619920
+  },
+  {
+    "state": "VT",
+    "year": 2005,
+    "population": 621215
+  },
+  {
+    "state": "VT",
+    "year": 2006,
+    "population": 622892
+  },
+  {
+    "state": "VT",
+    "year": 2007,
+    "population": 623481
+  },
+  {
+    "state": "VT",
+    "year": 2008,
+    "population": 624151
+  },
+  {
+    "state": "VT",
+    "year": 2009,
+    "population": 624817
+  },
+  {
+    "state": "VT",
+    "year": 2010,
+    "population": 625793
+  },
+  {
+    "state": "VT",
+    "year": 2011,
+    "population": 626320
+  },
+  {
+    "state": "VT",
+    "year": 2012,
+    "population": 625953
+  },
+  {
+    "state": "VT",
+    "year": 2013,
+    "population": 626630
+  },
+  {
+    "state": "WA",
+    "year": 1990,
+    "population": 4903043
+  },
+  {
+    "state": "WA",
+    "year": 1991,
+    "population": 5025624
+  },
+  {
+    "state": "WA",
+    "year": 1992,
+    "population": 5160757
+  },
+  {
+    "state": "WA",
+    "year": 1993,
+    "population": 5278842
+  },
+  {
+    "state": "WA",
+    "year": 1994,
+    "population": 5375161
+  },
+  {
+    "state": "WA",
+    "year": 1995,
+    "population": 5481027
+  },
+  {
+    "state": "WA",
+    "year": 1996,
+    "population": 5569753
+  },
+  {
+    "state": "WA",
+    "year": 1997,
+    "population": 5674747
+  },
+  {
+    "state": "WA",
+    "year": 1998,
+    "population": 5769562
+  },
+  {
+    "state": "WA",
+    "year": 1999,
+    "population": 5842564
+  },
+  {
+    "state": "WA",
+    "year": 2000,
+    "population": 5910512
+  },
+  {
+    "state": "WA",
+    "year": 2001,
+    "population": 5985722
+  },
+  {
+    "state": "WA",
+    "year": 2002,
+    "population": 6052349
+  },
+  {
+    "state": "WA",
+    "year": 2003,
+    "population": 6104115
+  },
+  {
+    "state": "WA",
+    "year": 2004,
+    "population": 6178645
+  },
+  {
+    "state": "WA",
+    "year": 2005,
+    "population": 6257305
+  },
+  {
+    "state": "WA",
+    "year": 2006,
+    "population": 6370753
+  },
+  {
+    "state": "WA",
+    "year": 2007,
+    "population": 6461587
+  },
+  {
+    "state": "WA",
+    "year": 2008,
+    "population": 6562231
+  },
+  {
+    "state": "WA",
+    "year": 2009,
+    "population": 6667426
+  },
+  {
+    "state": "WA",
+    "year": 2010,
+    "population": 6742256
+  },
+  {
+    "state": "WA",
+    "year": 2011,
+    "population": 6821481
+  },
+  {
+    "state": "WA",
+    "year": 2012,
+    "population": 6895318
+  },
+  {
+    "state": "WA",
+    "year": 2013,
+    "population": 6971406
+  },
+  {
+    "state": "WI",
+    "year": 1990,
+    "population": 4904562
+  },
+  {
+    "state": "WI",
+    "year": 1991,
+    "population": 4964343
+  },
+  {
+    "state": "WI",
+    "year": 1992,
+    "population": 5025398
+  },
+  {
+    "state": "WI",
+    "year": 1993,
+    "population": 5084889
+  },
+  {
+    "state": "WI",
+    "year": 1994,
+    "population": 5133678
+  },
+  {
+    "state": "WI",
+    "year": 1995,
+    "population": 5184836
+  },
+  {
+    "state": "WI",
+    "year": 1996,
+    "population": 5229986
+  },
+  {
+    "state": "WI",
+    "year": 1997,
+    "population": 5266213
+  },
+  {
+    "state": "WI",
+    "year": 1998,
+    "population": 5297673
+  },
+  {
+    "state": "WI",
+    "year": 1999,
+    "population": 5332666
+  },
+  {
+    "state": "WI",
+    "year": 2000,
+    "population": 5373999
+  },
+  {
+    "state": "WI",
+    "year": 2001,
+    "population": 5406835
+  },
+  {
+    "state": "WI",
+    "year": 2002,
+    "population": 5445162
+  },
+  {
+    "state": "WI",
+    "year": 2003,
+    "population": 5479203
+  },
+  {
+    "state": "WI",
+    "year": 2004,
+    "population": 5514026
+  },
+  {
+    "state": "WI",
+    "year": 2005,
+    "population": 5546166
+  },
+  {
+    "state": "WI",
+    "year": 2006,
+    "population": 5577655
+  },
+  {
+    "state": "WI",
+    "year": 2007,
+    "population": 5610775
+  },
+  {
+    "state": "WI",
+    "year": 2008,
+    "population": 5640996
+  },
+  {
+    "state": "WI",
+    "year": 2009,
+    "population": 5669264
+  },
+  {
+    "state": "WI",
+    "year": 2010,
+    "population": 5689060
+  },
+  {
+    "state": "WI",
+    "year": 2011,
+    "population": 5708785
+  },
+  {
+    "state": "WI",
+    "year": 2012,
+    "population": 5724554
+  },
+  {
+    "state": "WI",
+    "year": 2013,
+    "population": 5742713
+  },
+  {
+    "state": "WV",
+    "year": 1990,
+    "population": 1792548
+  },
+  {
+    "state": "WV",
+    "year": 1991,
+    "population": 1798735
+  },
+  {
+    "state": "WV",
+    "year": 1992,
+    "population": 1806451
+  },
+  {
+    "state": "WV",
+    "year": 1993,
+    "population": 1817539
+  },
+  {
+    "state": "WV",
+    "year": 1994,
+    "population": 1820421
+  },
+  {
+    "state": "WV",
+    "year": 1995,
+    "population": 1823700
+  },
+  {
+    "state": "WV",
+    "year": 1996,
+    "population": 1822808
+  },
+  {
+    "state": "WV",
+    "year": 1997,
+    "population": 1819113
+  },
+  {
+    "state": "WV",
+    "year": 1998,
+    "population": 1815609
+  },
+  {
+    "state": "WV",
+    "year": 1999,
+    "population": 1811799
+  },
+  {
+    "state": "WV",
+    "year": 2000,
+    "population": 1807021
+  },
+  {
+    "state": "WV",
+    "year": 2001,
+    "population": 1801481
+  },
+  {
+    "state": "WV",
+    "year": 2002,
+    "population": 1805414
+  },
+  {
+    "state": "WV",
+    "year": 2003,
+    "population": 1812295
+  },
+  {
+    "state": "WV",
+    "year": 2004,
+    "population": 1816438
+  },
+  {
+    "state": "WV",
+    "year": 2005,
+    "population": 1820492
+  },
+  {
+    "state": "WV",
+    "year": 2006,
+    "population": 1827912
+  },
+  {
+    "state": "WV",
+    "year": 2007,
+    "population": 1834052
+  },
+  {
+    "state": "WV",
+    "year": 2008,
+    "population": 1840310
+  },
+  {
+    "state": "WV",
+    "year": 2009,
+    "population": 1847775
+  },
+  {
+    "state": "WV",
+    "year": 2010,
+    "population": 1854146
+  },
+  {
+    "state": "WV",
+    "year": 2011,
+    "population": 1855184
+  },
+  {
+    "state": "WV",
+    "year": 2012,
+    "population": 1856680
+  },
+  {
+    "state": "WV",
+    "year": 2013,
+    "population": 1854304
+  },
+  {
+    "state": "WY",
+    "year": 1990,
+    "population": 453690
+  },
+  {
+    "state": "WY",
+    "year": 1991,
+    "population": 459260
+  },
+  {
+    "state": "WY",
+    "year": 1992,
+    "population": 466251
+  },
+  {
+    "state": "WY",
+    "year": 1993,
+    "population": 473081
+  },
+  {
+    "state": "WY",
+    "year": 1994,
+    "population": 480283
+  },
+  {
+    "state": "WY",
+    "year": 1995,
+    "population": 485160
+  },
+  {
+    "state": "WY",
+    "year": 1996,
+    "population": 488167
+  },
+  {
+    "state": "WY",
+    "year": 1997,
+    "population": 489452
+  },
+  {
+    "state": "WY",
+    "year": 1998,
+    "population": 490787
+  },
+  {
+    "state": "WY",
+    "year": 1999,
+    "population": 491780
+  },
+  {
+    "state": "WY",
+    "year": 2000,
+    "population": 494300
+  },
+  {
+    "state": "WY",
+    "year": 2001,
+    "population": 494657
+  },
+  {
+    "state": "WY",
+    "year": 2002,
+    "population": 500017
+  },
+  {
+    "state": "WY",
+    "year": 2003,
+    "population": 503453
+  },
+  {
+    "state": "WY",
+    "year": 2004,
+    "population": 509106
+  },
+  {
+    "state": "WY",
+    "year": 2005,
+    "population": 514157
+  },
+  {
+    "state": "WY",
+    "year": 2006,
+    "population": 522667
+  },
+  {
+    "state": "WY",
+    "year": 2007,
+    "population": 534876
+  },
+  {
+    "state": "WY",
+    "year": 2008,
+    "population": 546043
+  },
+  {
+    "state": "WY",
+    "year": 2009,
+    "population": 559851
+  },
+  {
+    "state": "WY",
+    "year": 2010,
+    "population": 564222
+  },
+  {
+    "state": "WY",
+    "year": 2011,
+    "population": 567329
+  },
+  {
+    "state": "WY",
+    "year": 2012,
+    "population": 576626
+  },
+  {
+    "state": "WY",
+    "year": 2013,
+    "population": 582658
+  }
+]

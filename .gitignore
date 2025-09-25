@@ -4,5 +4,7 @@ node_modules
 .tsbuildinfo
 *.tsbuildinfo
 dist/
+vite.config.js
+vite.config.d.ts
 .DS_Store
 .env*
