@@ -6,6 +6,10 @@ import {
   listInternationalDecades,
   findWarExtent
 } from './utils/internationalData';
+import { resolveCountryFeatureName } from './utils/countryNameMapping';
+import { InternationalMap } from './components/InternationalMap';
+import { InternationalTooltip } from './components/InternationalTooltip';
+import { CountryDetailPanel } from './components/CountryDetailPanel';
 import styles from './styles/InternationalApp.module.css';
 
 const resolveStaticUrl = (relativePath: string) => {
@@ -31,6 +35,14 @@ export default function InternationalApp() {
   const [minWar, setMinWar] = useState(0);
   const [selectedDecade, setSelectedDecade] = useState<number | 'all'>('all');
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [hoverInfo, setHoverInfo] = useState<{
+    country: string;
+    position: { x: number; y: number };
+  } | null>(null);
+  const [selectedInfo, setSelectedInfo] = useState<{
+    country: string;
+    position: { x: number; y: number };
+  } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -93,10 +105,14 @@ export default function InternationalApp() {
   useEffect(() => {
     if (aggregates.length === 0) {
       setSelectedCountry(null);
+      setSelectedInfo(null);
+      setHoverInfo(null);
       return;
     }
     if (!selectedCountry || !aggregates.some((aggregate) => aggregate.country === selectedCountry)) {
       setSelectedCountry(aggregates[0].country);
+      setSelectedInfo(null);
+      setHoverInfo(null);
     }
   }, [aggregates, selectedCountry]);
 
@@ -106,6 +122,34 @@ export default function InternationalApp() {
     }
     return aggregates.find((aggregate) => aggregate.country === selectedCountry) ?? null;
   }, [aggregates, selectedCountry]);
+
+  const aggregateMap = useMemo(() => {
+    const map = new Map<string, CountryAggregate>();
+    aggregates.forEach((aggregate) => map.set(aggregate.country, aggregate));
+    return map;
+  }, [aggregates]);
+
+  const hoveredAggregate = hoverInfo ? aggregateMap.get(hoverInfo.country) ?? null : null;
+
+  const tooltipAggregate = selectedInfo ? selectedAggregate : hoveredAggregate;
+  const tooltipPosition = selectedInfo ? selectedInfo.position : hoverInfo?.position ?? null;
+  const tooltipPinned = Boolean(selectedInfo);
+  const tooltipVisible = Boolean(tooltipAggregate && tooltipPosition);
+
+  const unmatchedCountries = useMemo(() => {
+    const seen = new Set<string>();
+    const list: string[] = [];
+    aggregates.forEach((aggregate) => {
+      if (resolveCountryFeatureName(aggregate.country)) {
+        return;
+      }
+      if (!seen.has(aggregate.country)) {
+        seen.add(aggregate.country);
+        list.push(aggregate.country);
+      }
+    });
+    return list;
+  }, [aggregates]);
 
   const datasetSummary = useMemo(() => {
     const countryCount = new Set(players.map((player) => player.birthCountry)).size;
@@ -138,123 +182,135 @@ export default function InternationalApp() {
         </p>
       </header>
       <main className={styles.main}>
-        <section className={styles.tableSection}>
-          <div className={styles.controls}>
-            <label className={styles.control}>
-              <span className={styles.controlLabel}>Minimum career WAR</span>
-              <div className={styles.sliderWrapper}>
-                <input
-                  type="range"
-                  min={0}
-                  max={sliderMax}
-                  step={1}
-                  value={minWar}
-                  onChange={(event) => setMinWar(Number(event.target.value))}
-                  aria-label="Minimum career WAR filter"
-                />
-                <span className={styles.sliderValue}>{warFormatter.format(minWar)}</span>
-              </div>
-            </label>
-            <label className={styles.control}>
-              <span className={styles.controlLabel}>Birth decade</span>
-              <select
-                value={selectedDecade === 'all' ? 'all' : String(selectedDecade)}
-                onChange={(event) => {
-                  const value = event.target.value;
-                  setSelectedDecade(value === 'all' ? 'all' : Number(value));
-                }}
-                aria-label="Birth decade filter"
-              >
-                <option value="all">All decades</option>
-                {decades.map((decade) => (
-                  <option key={decade} value={String(decade)}>
-                    {decade}s
-                  </option>
-                ))}
-              </select>
-            </label>
+        <div className={styles.leftColumn}>
+          <div className={styles.mapWrapper}>
+            <InternationalMap
+              aggregates={aggregates}
+              onCountryHover={(aggregate, position) => {
+                if (aggregate && position) {
+                  setHoverInfo({ country: aggregate.country, position });
+                } else {
+                  setHoverInfo(null);
+                }
+              }}
+              onCountrySelect={(aggregate, position) => {
+                if (aggregate && position) {
+                  setSelectedCountry(aggregate.country);
+                  setSelectedInfo({ country: aggregate.country, position });
+                  setHoverInfo(null);
+                } else {
+                  setSelectedInfo(null);
+                  setHoverInfo(null);
+                }
+              }}
+              selectedCountry={selectedCountry}
+            />
+            <InternationalTooltip
+              aggregate={tooltipAggregate}
+              position={tooltipPosition}
+              visible={tooltipVisible}
+              pinned={tooltipPinned}
+            />
           </div>
-          {loading ? (
-            <div className={styles.placeholder}>Loading international player data…</div>
-          ) : error ? (
-            <div className={styles.error}>{error}</div>
-          ) : aggregates.length === 0 ? (
-            <div className={styles.placeholder}>No countries match the current filters.</div>
-          ) : (
-            <div className={styles.tableContainer}>
-              <table>
-                <thead>
-                  <tr>
-                    <th scope="col">Country</th>
-                    <th scope="col">Players</th>
-                    <th scope="col">Total WAR</th>
-                    <th scope="col">Avg. WAR</th>
-                    <th scope="col">Top player</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {aggregates.map((aggregate) => {
-                    const topPlayer = aggregate.players[0];
-                    return (
-                      <tr
-                        key={aggregate.country}
-                        className={aggregate.country === selectedCountry ? styles.selectedRow : undefined}
-                        onClick={() => setSelectedCountry(aggregate.country)}
-                      >
-                        <th scope="row">{aggregate.country}</th>
-                        <td>{numberFormatter.format(aggregate.playerCount)}</td>
-                        <td>{warFormatter.format(aggregate.totalWar)}</td>
-                        <td>{warFormatter.format(aggregate.averageWar)}</td>
-                        <td>
-                          {topPlayer ? (
-                            <span className={styles.topPlayer}>
-                              <span className={styles.playerName}>{topPlayer.fullName}</span>
-                              <span className={styles.playerWar}>{warFormatter.format(topPlayer.warCareer)} WAR</span>
-                            </span>
-                          ) : (
-                            '—'
-                          )}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </section>
-        <aside className={styles.detailPanel}>
-          {selectedAggregate ? (
-            <div className={styles.detailContent}>
-              <h2>{selectedAggregate.country}</h2>
-              <p className={styles.detailSummary}>
-                {numberFormatter.format(selectedAggregate.playerCount)} players ·{' '}
-                {warFormatter.format(selectedAggregate.totalWar)} total WAR ·{' '}
-                {warFormatter.format(selectedAggregate.averageWar)} average WAR
-              </p>
-              <div className={styles.topPlayersList}>
-                <h3>Top contributors</h3>
-                <ol>
-                  {selectedAggregate.players.slice(0, 12).map((player) => (
-                    <li key={player.playerId}>
-                      <div className={styles.playerRow}>
-                        <span className={styles.playerName}>{player.fullName}</span>
-                        <span className={styles.playerMeta}>
-                          {player.birthCity ? `${player.birthCity}, ` : ''}
-                          {player.birthCountry}
-                        </span>
-                        <span className={styles.playerWar}>{warFormatter.format(player.warCareer)} WAR</span>
-                      </div>
-                      <span className={styles.playerBirthYear}>Born {player.birthYear}</span>
-                    </li>
+          <CountryDetailPanel aggregate={selectedAggregate} />
+        </div>
+        <section className={styles.rightColumn}>
+          <div className={styles.tableSection}>
+            <div className={styles.controls}>
+              <label className={styles.control}>
+                <span className={styles.controlLabel}>Minimum career WAR</span>
+                <div className={styles.sliderWrapper}>
+                  <input
+                    type="range"
+                    min={0}
+                    max={sliderMax}
+                    step={1}
+                    value={minWar}
+                    onChange={(event) => setMinWar(Number(event.target.value))}
+                    aria-label="Minimum career WAR filter"
+                  />
+                  <span className={styles.sliderValue}>{warFormatter.format(minWar)}</span>
+                </div>
+              </label>
+              <label className={styles.control}>
+                <span className={styles.controlLabel}>Birth decade</span>
+                <select
+                  value={selectedDecade === 'all' ? 'all' : String(selectedDecade)}
+                  onChange={(event) => {
+                    const value = event.target.value;
+                    setSelectedDecade(value === 'all' ? 'all' : Number(value));
+                  }}
+                  aria-label="Birth decade filter"
+                >
+                  <option value="all">All decades</option>
+                  {decades.map((decade) => (
+                    <option key={decade} value={String(decade)}>
+                      {decade}s
+                    </option>
                   ))}
-                </ol>
-              </div>
+                </select>
+              </label>
             </div>
-          ) : (
-            <div className={styles.placeholder}>Select a country to explore its standout players.</div>
-          )}
-        </aside>
+            {unmatchedCountries.length > 0 && (
+              <p className={styles.unmatchedNotice}>
+                Territories without individual map shapes ({unmatchedCountries.join(', ')}) still appear in the table and
+                detail view.
+              </p>
+            )}
+            {loading ? (
+              <div className={styles.placeholder}>Loading international player data…</div>
+            ) : error ? (
+              <div className={styles.error}>{error}</div>
+            ) : aggregates.length === 0 ? (
+              <div className={styles.placeholder}>No countries match the current filters.</div>
+            ) : (
+              <div className={styles.tableContainer}>
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Country</th>
+                      <th scope="col">Players</th>
+                      <th scope="col">Total WAR</th>
+                      <th scope="col">Avg. WAR</th>
+                      <th scope="col">Top player</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {aggregates.map((aggregate) => {
+                      const topPlayer = aggregate.players[0];
+                      return (
+                        <tr
+                          key={aggregate.country}
+                          className={aggregate.country === selectedCountry ? styles.selectedRow : undefined}
+                          onClick={() => {
+                            setSelectedCountry(aggregate.country);
+                            setSelectedInfo(null);
+                            setHoverInfo(null);
+                          }}
+                        >
+                          <th scope="row">{aggregate.country}</th>
+                          <td>{numberFormatter.format(aggregate.playerCount)}</td>
+                          <td>{warFormatter.format(aggregate.totalWar)}</td>
+                          <td>{warFormatter.format(aggregate.averageWar)}</td>
+                          <td>
+                            {topPlayer ? (
+                              <span className={styles.topPlayer}>
+                                <span className={styles.playerName}>{topPlayer.fullName}</span>
+                                <span className={styles.playerWar}>{warFormatter.format(topPlayer.warCareer)} WAR</span>
+                              </span>
+                            ) : (
+                              '—'
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        </section>
       </main>
     </div>
   );
