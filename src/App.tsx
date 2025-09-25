@@ -98,9 +98,16 @@ export default function App() {
     }
   }, [view, decades, decadeFocus]);
 
+  const internationalHref = `${(import.meta.env.BASE_URL ?? '/').replace(/\/?$/, '/')}#/international`;
+
   return (
     <div className={styles.app}>
       <header className={styles.header}>
+        <div className={styles.headerNav}>
+          <a className={styles.navLink} href={internationalHref}>
+            International edition →
+          </a>
+        </div>
         <h1>Birthplace WAR Atlas</h1>
         <p className={styles.subtitle}>
           Explore how career WAR is distributed across the United States by birthplace, population, and birth decade.
